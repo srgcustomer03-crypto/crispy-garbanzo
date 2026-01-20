@@ -11,13 +11,17 @@
             "id": "78aa0edc10a1d26f",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "canvas",
               "state": {
-                "file": "無題のファイル.base",
-                "viewName": "Table"
+                "file": "無題のファイル 2.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-table",
-              "title": "無題のファイル"
+              "icon": "lucide-layout-dashboard",
+              "title": "無題のファイル 2"
             }
           }
         ]
@@ -164,13 +168,23 @@
               "icon": "lucide-list",
               "title": "Welcomeのアウトライン"
             }
+          },
+          {
+            "id": "b9cb560c62908e6e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,13 +194,17 @@
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "78aa0edc10a1d26f",
   "lastOpenFiles": [
-    "2026-01-20.md",
+    "無題のファイル 1.base",
+    "無題のファイル 2.canvas",
     "無題のファイル.base",
+    "GITHUB_SETUP_INSTRUCTIONS.md",
+    "2026-01-20.md",
     "無題のファイル 1.canvas",
     "10_知識データベース/11_FXトレード戦略/00_基本手法_Zero_Magic.md",
     "10_知識データベース/11_FXトレード戦略/2026-01-19_師匠の手法分析レポート.md",
@@ -212,7 +230,6 @@
     "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 朝やる事 - 1日の初めにかならず [1392322895455453294].json_Files",
     "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files",
     "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 損切り [1413258762709500036].json_Files",
-    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - ロジック➕フィボナッチ - フィボナッチ3段目orディスカウントzoneプレミアムzone [1384824876845760593].json_Files",
     "log/Welcome.md",
     "Welcome.md"
   ]
