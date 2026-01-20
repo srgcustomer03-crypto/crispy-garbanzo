@@ -5,15 +5,16 @@
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2026, Antigravity"
 #property link      "https://www.mql5.com"
-#property version   "1.01"
+#property version   "1.02"
 #property strict
 #property indicator_chart_window
 #property indicator_buffers 2
 #property indicator_color1  clrDodgerBlue
 #property indicator_color2  clrRed
 //--- input parameters
-input double   DetectionRangePips = 5.0;  // Detection Range from 0.000 (Pips)
-input color    LineColor          = clrSilver; // 0.000 Line Color
+input double   DetectionRangePips = 5.0;  // Detection Range from Line (Pips)
+input double   ManualGridStep     = 0.0;  // Grid Step (0.0 = Auto Detect)
+input color    LineColor          = clrSilver; // Line Color
 input int      HistoryBars        = 1000;      // Days to process (bars)
 input bool     UseAlerts          = true;      // Enable Alerts
 
@@ -55,25 +56,51 @@ int OnCalculate(const int rates_total,
    if(prev_calculated > 0) limit++;
    if(limit > HistoryBars) limit = HistoryBars;
 
-   // 1. Determine Step Size for "0.000" (Round Numbers)
-   // Standard FX (EURUSD, GBPUSD) -> 0.01 (100 pips) implies 1.1200, 1.1300
-   // JPY Pairs (USDJPY) -> 1.0 (100 pips) implies 145.00, 146.00
-   double step = 0.01;
-   if(Digits == 3 || Digits == 2) step = 1.0; 
+   // --- Determine Grid Step
+   double step = 0.0;
+   
+   if(ManualGridStep > 0.0) {
+       step = ManualGridStep;
+   } else {
+       // Auto Detection Logic
+       string sym = Symbol();
+       
+       if(StringFind(sym, "XAU") >= 0 || StringFind(sym, "GOLD") >= 0) {
+           // GOLD Logic: Usually 2 digits (2035.00) or 3 digits.
+           // Standard Zero Line for Gold is often every $1.00 or $5.00
+           // Setting to 1.0 (Every $1) as base "Zero" (.00)
+           step = 1.0; 
+       } else if(Digits == 3 || Digits == 5) {
+           // JPY Pairs (145.000) or Standard Pairs (1.12345)
+           // If Price > 50 (JPY), step = 1.0 (145.000)
+           // If Price < 50 (EURUSD), step = 0.01 (100 pips -> 1.12000)
+           if(close[0] > 50.0) step = 1.0;
+           else step = 0.01;
+       } else {
+           // 2 or 4 digits
+           if(close[0] > 50.0) step = 1.0;
+           else step = 0.01;
+       }
+   }
 
    // --- Signal Loop
    for(int i = limit; i >= 1; i--)
      {
       double price = close[i];
-      // Find nearest Round Number
-      double nearest000 = MathRound(price / step) * step;
+      // Find nearest Grid Line
+      double nearest = MathRound(price / step) * step;
       
-      // Calculate distance in pips
-      double distance = MathAbs(price - nearest000) / Point;
-      // Adjust pips for 3/5 digit brokers
-      if(Digits == 3 || Digits == 5) distance /= 10; 
+      // Calculate distance in pips based on Digits
+      double diff = MathAbs(price - nearest);
+      double distancePips = diff / Point;
       
-      bool isNear = (distance <= DetectionRangePips);
+      // Adjust pips for typical 3/5 digit fractional brokers
+      // GOLD often 2 digits (0.01 point). 1 pip = 0.10 or 0.01? 
+      // Standard: Gold 2 digits -> 1 point = 0.01. "1 pip" usually implies 0.10 moves for some, or 0.01 for others.
+      // Let's rely on standard Point. For 5-digit/3-digit JPY, divide by 10 to get standard pips.
+      if(Digits == 3 || Digits == 5) distancePips /= 10; 
+      
+      bool isNear = (distancePips <= DetectionRangePips);
       
       if(isNear) {
           // Bullish Engulfing
@@ -81,10 +108,11 @@ int OnCalculate(const int rates_total,
           bool currBull = close[i] > open[i];
           
           if(prevBear && currBull) {
+              // Body Engulfing: Close > Prev Open && Open < Prev Close
               if(close[i] >= open[i+1] && open[i] <= close[i+1]) {
                   BullBuffer[i] = low[i] - 10 * Point;
                   if(i == 0 && UseAlerts && Time[0] != Time[1]) {
-                     // Realtime alert logic here
+                     // Alert
                   }
               }
           }
@@ -113,13 +141,12 @@ int OnCalculate(const int rates_total,
 void DrawGridLines(double step, color col) {
     double bid = SymbolInfoDouble(Symbol(), SYMBOL_BID);
     
-    // Find a base level near price
+    // Draw grid around current price
     double base = MathFloor(bid / step) * step;
     
-    // Draw 10 lines above and 10 lines below
-    for(int k = -10; k <= 10; k++) {
+    // Range: +/- 20 lines
+    for(int k = -20; k <= 20; k++) {
         double level = base + (k * step);
-        // Normalize double to avoid weird float names
         level = NormalizeDouble(level, Digits);
         
         string name = "ZM_Line_" + DoubleToString(level, Digits);
@@ -129,12 +156,8 @@ void DrawGridLines(double step, color col) {
             ObjectSetInteger(0, name, OBJPROP_COLOR, col);
             ObjectSetInteger(0, name, OBJPROP_STYLE, STYLE_DOT);
             ObjectSetInteger(0, name, OBJPROP_SELECTABLE, false);
-            ObjectSetInteger(0, name, OBJPROP_HIDDEN, true); // Hide from object list if preferred
+            // ObjectSetInteger(0, name, OBJPROP_HIDDEN, true); // Keep visible
         }
     }
-    
-    // Optional: Cleanup output objects that are too far? 
-    // For now, allow accumulation or user can clear objects. 
-    // To be cleaner, we could delete objects not in range, but that's expensive.
 }
 //+------------------------------------------------------------------+
