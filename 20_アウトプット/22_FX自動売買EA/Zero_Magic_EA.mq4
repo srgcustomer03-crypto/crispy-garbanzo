@@ -5,7 +5,7 @@
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2026, Antigravity"
 #property link      "https://www.mql5.com"
-#property version   "1.01"
+#property version   "1.02"
 #property strict
 
 //--- Input Parameters
@@ -41,10 +41,9 @@ int OnInit()
 //+------------------------------------------------------------------+
 void OnTick()
   {
-   if(Bars < HistoryBars) return;
+   if(Bars < HistoryBars + 5) return; // FIX: Ensure enough bars exist
    
-   // A. Re-calculate OBs logic every tick (for verification visuals)
-   // But only Trade on New Bar
+   // A. Re-calculate OBs logic every tick
    static datetime lastBar;
    bool newBar = (Time[0] != lastBar);
    
@@ -55,8 +54,8 @@ void OnTick()
    int i = 1; // Analyze completed bar
 
    // --- Debug Info on Chart ---
-   string debugMsg = "Zero Magic EA Running\n";
-   debugMsg += "Last Bar Time: " + TimeToString(Time[1], TIME_MINUTES) + "\n";
+   string debugMsg = "Zero Magic EA v1.02 Running\n";
+   debugMsg += "Last Bar: " + TimeToString(Time[1], TIME_MINUTES) + "\n";
    
    // 1. Grid Line Check
    double step = ManualGridStep;
@@ -71,9 +70,6 @@ void OnTick()
    double nearest = MathRound(price / step) * step;
    double diff = MathAbs(price - nearest);
    
-   // FIX: Pip Calculation
-   // Gold (Digits=2): 100 pips = $10.0 -> 1 pip = $0.10 (10 Points)
-   // Standard 5/3 digits: 1 pip = 10 Points
    double pointVal = Point;
    double pipVal = Point;
    
@@ -85,14 +81,12 @@ void OnTick()
    bool nearLine = (gapPips <= DetectionRangePips);
    
    debugMsg += "Nearest Line: " + DoubleToString(nearest, Digits) + " (Gap: " + DoubleToString(gapPips, 1) + " pips)\n";
-   debugMsg += "Near Line Condition: " + (nearLine ? "OK" : "Too Far") + "\n";
 
    // 2. Zone Check
    bool inZone = false;
    bool zoneBull = false;
    int zoneCount = 0;
    
-   // Debug OBs
    for(int k=0; k<ArraySize(activeOBs); k++) {
        if(activeOBs[k].active) zoneCount++;
        if(activeOBs[k].active) {
@@ -109,16 +103,21 @@ void OnTick()
            }
        }
    }
-   debugMsg += "Active OBs: " + IntegerToString(zoneCount) + "\n";
-   debugMsg += "In Zone Condition: " + (inZone ? (zoneBull ? "YES (Bull)" : "YES (Bear)") : "No") + "\n";
+   debugMsg += "Active OB Zones: " + IntegerToString(zoneCount) + "\n";
+   debugMsg += "In Zone? " + (inZone ? (zoneBull ? "YES (Buy Zone)" : "YES (Sell Zone)") : "No") + "\n";
 
    // 3. Engulfing Check
    bool isBullEngulf = (Close[i] > Open[i] && Close[i+1] < Open[i+1] && Close[i] >= Open[i+1] && Open[i] <= Close[i+1]);
    bool isBearEngulf = (Close[i] < Open[i] && Close[i+1] > Open[i+1] && Close[i] <= Open[i+1] && Open[i] >= Close[i+1]);
    
-   debugMsg += "Engulfing: " + (isBullEngulf ? "Bull" : (isBearEngulf ? "Bear" : "None")) + "\n";
+   string pat = "None";
+   if(isBullEngulf) pat = "Bull Engulfing";
+   if(isBearEngulf) pat = "Bear Engulfing";
+   debugMsg += "Pattern: " + pat + "\n";
    
-   Comment(debugMsg); // Show on Chart
+   if(nearLine && inZone && (isBullEngulf||isBearEngulf)) debugMsg += ">>> SIGNAL DETECTED! <<<\n";
+   
+   Comment(debugMsg); 
 
    // --- Trade Execution (New Bar Only) ---
    if(!newBar) return;
@@ -150,7 +149,10 @@ void OnTick()
 //| Calculate OBs helper                                             |
 //+------------------------------------------------------------------+
 void CalculateOBs() {
-    for(int i = HistoryBars; i >= 2; i--) {
+    int start = HistoryBars;
+    if(start >= Bars - 5) start = Bars - 5; // FIX: Ensure not exceeding Bars
+
+    for(int i = start; i >= 2; i--) {
         // Mitigation
         for(int k=ArraySize(activeOBs)-1; k>=0; k--) {
             if(activeOBs[k].isBull) {
@@ -159,7 +161,11 @@ void CalculateOBs() {
                 if(Close[i] > activeOBs[k].top) activeOBs[k].active = false;
             }
         }
-        // New OB
+        
+        // New OB - FIX: Ensure i+2 is accessing valid index. i is decreasing, so max index is 'start+2'.
+        // if i=start, i+2 = start+2. 
+        // We capped start at Bars-5, so start+2 = Bars-3. Safe.
+        
         if(Low[i] > High[i+2]) { // Bull FVG
             if(Open[i+2] > Close[i+2]) { // Bear OB
                 addOB(High[i+2], Low[i+2], true);
@@ -185,7 +191,11 @@ void addOB(double top, double bottom, bool bull) {
     activeOBs[s] = newOB;
     
     if(s+1 > MaxActiveOBs) {
-        for(int m=0; m<s; m++) activeOBs[m] = activeOBs[m+1];
+        // Shift left
+        for(int m=0; m<s; m++) {
+            activeOBs[m] = activeOBs[m+1];
+        }
+        // Resize down
         ArrayResize(activeOBs, s);
     }
 }
