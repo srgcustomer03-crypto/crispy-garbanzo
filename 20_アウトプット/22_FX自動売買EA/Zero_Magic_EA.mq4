@@ -5,16 +5,16 @@
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2026, Antigravity"
 #property link      "https://www.mql5.com"
-#property version   "1.02"
+#property version   "2.00"
 #property strict
 
 //--- Input Parameters
 input double Lots          = 0.01;
 input double StopLossPips  = 20.0;
 input double TakeProfitPips= 30.0;
-input int    MagicNumber   = 202601;
+input int    MagicNumber   = 202602;
 input double DetectionRangePips = 5.0;  // Pips from Line
-input double ManualGridStep     = 10.0; // Grid Step (Gold Default 10.0)
+input double ManualGridStep     = 10.0; 
 
 // Internal Logic Variables
 struct OrderBlock {
@@ -22,11 +22,11 @@ struct OrderBlock {
     double bottom;
     bool isBull;
     bool active;
+    int timeframe; // Debug info
 };
 
-OrderBlock activeOBs[];
-int MaxActiveOBs = 10;
-int HistoryBars = 200; 
+OrderBlock activeOBs[]; 
+int MaxActiveOBsPerTF = 5; 
 
 //+------------------------------------------------------------------+
 //| Expert initialization function                                   |
@@ -41,162 +41,186 @@ int OnInit()
 //+------------------------------------------------------------------+
 void OnTick()
   {
-   if(Bars < HistoryBars + 5) return; // FIX: Ensure enough bars exist
-   
-   // A. Re-calculate OBs logic every tick
+   if(Bars < 10) return; 
+
    static datetime lastBar;
    bool newBar = (Time[0] != lastBar);
    
-   // Refresh OB List
+   // --- 1. MTF OB Detection (Refresh every tick for debug visual) ---
    ArrayResize(activeOBs, 0);
-   CalculateOBs();
-
-   int i = 1; // Analyze completed bar
-
-   // --- Debug Info on Chart ---
-   string debugMsg = "Zero Magic EA v1.02 Running\n";
+   
+   // Check all required TFs
+   CheckOBs(PERIOD_D1);
+   CheckOBs(PERIOD_H4);
+   CheckOBs(PERIOD_H1);
+   CheckOBs(PERIOD_M30);
+   CheckOBs(PERIOD_M15);
+   CheckOBs(PERIOD_M5);
+   
+   // --- Debug Info ---
+   int i = 1; 
+   string debugMsg = "Zero Magic EA v2.0 (MTF)\n";
    debugMsg += "Last Bar: " + TimeToString(Time[1], TIME_MINUTES) + "\n";
    
-   // 1. Grid Line Check
+   // Grid Logic
    double step = ManualGridStep;
     if(step == 0.0) {
        string sym = Symbol();
        if(StringFind(sym, "XAU") >= 0 || StringFind(sym, "GOLD") >= 0) step = 10.0;
-       else if(Digits == 3 || Digits == 5) step = 1.0; 
-       else step = 0.01;
+       else if(Digits == 3 || Digits == 5) step = 1.0; else step = 0.01;
    }
-   
    double price = Close[i];
    double nearest = MathRound(price / step) * step;
-   double diff = MathAbs(price - nearest);
-   
    double pointVal = Point;
    double pipVal = Point;
-   
    if(Digits==3 || Digits==5) pipVal = Point * 10;
    if(Digits==2 && (StringFind(Symbol(),"XAU")>=0 || StringFind(Symbol(),"GOLD")>=0)) pipVal = Point * 10; 
 
-   double gapPips = diff / pipVal; // Gap in Pips
-   
+   double gapPips = MathAbs(price - nearest) / pipVal;
    bool nearLine = (gapPips <= DetectionRangePips);
    
-   debugMsg += "Nearest Line: " + DoubleToString(nearest, Digits) + " (Gap: " + DoubleToString(gapPips, 1) + " pips)\n";
+   debugMsg += "Lines: Gap " + DoubleToString(gapPips,1) + " (Limit " + DoubleToString(DetectionRangePips,1) + ")\n";
 
-   // 2. Zone Check
+   // Zone Match
    bool inZone = false;
    bool zoneBull = false;
-   int zoneCount = 0;
+   string tfList = "";
    
    for(int k=0; k<ArraySize(activeOBs); k++) {
-       if(activeOBs[k].active) zoneCount++;
        if(activeOBs[k].active) {
+           bool overlap = false;
            if(activeOBs[k].isBull) {
                if(Low[i] <= activeOBs[k].top && High[i] >= activeOBs[k].bottom) {
-                   inZone = true;
-                   zoneBull = true;
+                   overlap = true;
+                   zoneBull = true; 
                }
            } else {
-                if(High[i] >= activeOBs[k].bottom && Low[i] <= activeOBs[k].top) {
-                   inZone = true;
+               if(High[i] >= activeOBs[k].bottom && Low[i] <= activeOBs[k].top) {
+                   overlap = true;
                    zoneBull = false; 
                }
            }
+           
+           if(overlap) {
+               inZone = true;
+               tfList += TFToString(activeOBs[k].timeframe) + " ";
+           }
        }
    }
-   debugMsg += "Active OB Zones: " + IntegerToString(zoneCount) + "\n";
-   debugMsg += "In Zone? " + (inZone ? (zoneBull ? "YES (Buy Zone)" : "YES (Sell Zone)") : "No") + "\n";
-
-   // 3. Engulfing Check
+   debugMsg += "In Zone: " + (inZone ? "YES (" + tfList + ")" : "No") + "\n";
+   debugMsg += "Total OBs: " + IntegerToString(ArraySize(activeOBs)) + "\n";
+   
+   // Signal
    bool isBullEngulf = (Close[i] > Open[i] && Close[i+1] < Open[i+1] && Close[i] >= Open[i+1] && Open[i] <= Close[i+1]);
    bool isBearEngulf = (Close[i] < Open[i] && Close[i+1] > Open[i+1] && Close[i] <= Open[i+1] && Open[i] >= Close[i+1]);
    
-   string pat = "None";
-   if(isBullEngulf) pat = "Bull Engulfing";
-   if(isBearEngulf) pat = "Bear Engulfing";
-   debugMsg += "Pattern: " + pat + "\n";
-   
-   if(nearLine && inZone && (isBullEngulf||isBearEngulf)) debugMsg += ">>> SIGNAL DETECTED! <<<\n";
-   
-   Comment(debugMsg); 
+   Comment(debugMsg);
 
-   // --- Trade Execution (New Bar Only) ---
    if(!newBar) return;
    lastBar = Time[0];
    
-   if(!nearLine) return; // Must be near line
-   if(!inZone) return;   // Must be in zone
+   if(!nearLine) return;
+   if(!inZone) return;
 
-   // Long
    if(isBullEngulf && zoneBull) {
        if(OrdersTotal() == 0) { 
            double sl = Ask - StopLossPips * pipVal;
            double tp = Ask + TakeProfitPips * pipVal;
-           OrderSend(Symbol(), OP_BUY, Lots, Ask, 3, sl, tp, "Zero Magic Buy", MagicNumber, 0, clrBlue);
+           OrderSend(Symbol(), OP_BUY, Lots, Ask, 3, sl, tp, "Zero Magic MTF Buy", MagicNumber, 0, clrBlue);
        }
    }
-   
-   // Short
    if(isBearEngulf && !zoneBull) {
        if(OrdersTotal() == 0) {
            double sl = Bid + StopLossPips * pipVal;
            double tp = Bid - TakeProfitPips * pipVal;
-           OrderSend(Symbol(), OP_SELL, Lots, Bid, 3, sl, tp, "Zero Magic Sell", MagicNumber, 0, clrRed);
+           OrderSend(Symbol(), OP_SELL, Lots, Bid, 3, sl, tp, "Zero Magic MTF Sell", MagicNumber, 0, clrRed);
        }
    }
   }
 
 //+------------------------------------------------------------------+
-//| Calculate OBs helper                                             |
+//| MTF Check Helper                                                 |
 //+------------------------------------------------------------------+
-void CalculateOBs() {
-    int start = HistoryBars;
-    if(start >= Bars - 5) start = Bars - 5; // FIX: Ensure not exceeding Bars
-
-    for(int i = start; i >= 2; i--) {
-        // Mitigation
-        for(int k=ArraySize(activeOBs)-1; k>=0; k--) {
-            if(activeOBs[k].isBull) {
-                if(Close[i] < activeOBs[k].bottom) activeOBs[k].active = false;
+void CheckOBs(int limitTF) {
+    // 1. Get Bars count for that TF
+    int bars = iBars(Symbol(), limitTF);
+    if(bars < 10) return;
+    
+    // Scan last N bars of that TF
+    int scan = 100; 
+    if(scan > bars-5) scan = bars-5;
+    
+    OrderBlock tfOBs[]; 
+    
+    for(int i = scan; i >= 2; i--) {
+        double hi = iHigh(Symbol(), limitTF, i);
+        double lo = iLow(Symbol(), limitTF, i);
+        double cl = iClose(Symbol(), limitTF, i);
+        
+        // Mitigation Check
+        for(int k=ArraySize(tfOBs)-1; k>=0; k--) {
+            if(tfOBs[k].isBull) {
+                if(cl < tfOBs[k].bottom) tfOBs[k].active = false; 
             } else {
-                if(Close[i] > activeOBs[k].top) activeOBs[k].active = false;
+                if(cl > tfOBs[k].top) tfOBs[k].active = false;
             }
         }
         
-        // New OB - FIX: Ensure i+2 is accessing valid index. i is decreasing, so max index is 'start+2'.
-        // if i=start, i+2 = start+2. 
-        // We capped start at Bars-5, so start+2 = Bars-3. Safe.
+        // New OB
+        double lo2 = iLow(Symbol(), limitTF, i+2);
+        double hi2 = iHigh(Symbol(), limitTF, i+2);
+        double op2 = iOpen(Symbol(), limitTF, i+2);
+        double cl2 = iClose(Symbol(), limitTF, i+2);
         
-        if(Low[i] > High[i+2]) { // Bull FVG
-            if(Open[i+2] > Close[i+2]) { // Bear OB
-                addOB(High[i+2], Low[i+2], true);
+        if(lo > hi2) { // Bull FVG
+            if(op2 > cl2) { // Bear OB
+                addTempOB(tfOBs, hi2, lo2, true, limitTF);
             }
         }
-        if(High[i] < Low[i+2]) { // Bear FVG
-            if(Close[i+2] > Open[i+2]) { // Bull OB
-                addOB(High[i+2], Low[i+2], false);
+        double hi0 = iHigh(Symbol(), limitTF, i);
+        
+        if(hi0 < lo2) { // Bear FVG
+            if(cl2 > op2) { // Bull OB
+                addTempOB(tfOBs, hi2, lo2, false, limitTF);
             }
+        }
+    }
+    
+    // Add Valid ones to Global
+    for(int k=0; k<ArraySize(tfOBs); k++) {
+        if(tfOBs[k].active) {
+            int s = ArraySize(activeOBs);
+            ArrayResize(activeOBs, s+1);
+            activeOBs[s] = tfOBs[k];
         }
     }
 }
 
-void addOB(double top, double bottom, bool bull) {
+void addTempOB(OrderBlock &arr[], double top, double bottom, bool bull, int tf) {
     OrderBlock newOB;
     newOB.top = top;
     newOB.bottom = bottom;
     newOB.isBull = bull;
     newOB.active = true;
+    newOB.timeframe = tf;
     
-    int s = ArraySize(activeOBs);
-    ArrayResize(activeOBs, s+1);
-    activeOBs[s] = newOB;
+    int s = ArraySize(arr);
+    ArrayResize(arr, s+1);
+    arr[s] = newOB;
     
-    if(s+1 > MaxActiveOBs) {
-        // Shift left
-        for(int m=0; m<s; m++) {
-            activeOBs[m] = activeOBs[m+1];
-        }
-        // Resize down
-        ArrayResize(activeOBs, s);
+    if(s+1 > MaxActiveOBsPerTF) {
+        for(int m=0; m<s; m++) arr[m] = arr[m+1];
+        ArrayResize(arr, s);
     }
+}
+
+string TFToString(int tf) {
+    if(tf == PERIOD_D1) return "D1";
+    if(tf == PERIOD_H4) return "H4";
+    if(tf == PERIOD_H1) return "H1";
+    if(tf == PERIOD_M30) return "M30";
+    if(tf == PERIOD_M15) return "M15";
+    if(tf == PERIOD_M5) return "M5";
+    return "";
 }
 //+------------------------------------------------------------------+
