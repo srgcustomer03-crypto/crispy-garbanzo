@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ba651a9fc305dba9",
+        "id": "6c0c35927bc3b7b9",
         "type": "tabs",
         "children": [
           {
-            "id": "78aa0edc10a1d26f",
+            "id": "ece52ccc305de4c6",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "無題のファイル 2.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "無題のファイル 2"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新規タブ"
             }
           }
         ]
@@ -198,10 +191,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "78aa0edc10a1d26f",
+  "active": "ece52ccc305de4c6",
   "lastOpenFiles": [
-    "無題のファイル 1.base",
     "無題のファイル 2.canvas",
+    "無題のファイル 1.base",
     "無題のファイル.base",
     "GITHUB_SETUP_INSTRUCTIONS.md",
     "2026-01-20.md",
