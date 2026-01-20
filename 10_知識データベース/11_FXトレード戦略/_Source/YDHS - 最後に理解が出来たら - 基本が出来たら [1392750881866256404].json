@@ -1,0 +1,429 @@
+{
+  "guild": {
+    "id": "1383010560379191357",
+    "name": "YDHS",
+    "iconUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\bad6ad74efef42b22c6a9e596258de5d-A02A0.png"
+  },
+  "channel": {
+    "id": "1392750881866256404",
+    "type": "GuildTextChat",
+    "categoryId": "1392750734440796221",
+    "category": "最後に理解が出来たら",
+    "name": "基本が出来たら",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-01-19T01:52:20.4072069+09:00",
+  "messages": [
+    {
+      "id": "1392751608764436541",
+      "type": "Default",
+      "timestamp": "2025-07-10T15:17:39.603+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "基本が出来た頃にはポジポジ病などなくなってるかと思います、ここにきてようやく、0.000にこだわりを持たず、持ちつつ。しっかりした上位足のOB fvgラインで攻めてみてください。X見てくれてる方にはわかるかと思いますが。ロジックプラスαが絡むと中々つよいです",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1392751662317441097",
+      "type": "Default",
+      "timestamp": "2025-07-10T15:17:52.371+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1392751661851738252",
+          "url": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\IMG_4989-44FE1.png",
+          "fileName": "IMG_4989.png",
+          "fileSizeBytes": 550337
+        },
+        {
+          "id": "1392751662354923642",
+          "url": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\IMG_4990-8D6A1.png",
+          "fileName": "IMG_4990.png",
+          "fileSizeBytes": 498149
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1392751766147432539",
+      "type": "Default",
+      "timestamp": "2025-07-10T15:18:17.126+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1392751765941653535",
+          "url": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\IMG_4973-179C6.png",
+          "fileName": "IMG_4973.png",
+          "fileSizeBytes": 397866
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1392751795108970506",
+      "type": "Default",
+      "timestamp": "2025-07-10T15:18:24.031+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1392751794895065250",
+          "url": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\IMG_4990-E4E0E.png",
+          "fileName": "IMG_4990.png",
+          "fileSizeBytes": 498149
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDCCD",
+            "code": "round_pushpin",
+            "isAnimated": false,
+            "imageUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\1f4cd-57F96.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "1408038778995736589",
+              "name": "dk04766",
+              "discriminator": "0000",
+              "nickname": "DK",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\5445ffd7ffb201a98393cbdf684ea4b1-A4ECE.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398126869127364630",
+      "type": "Default",
+      "timestamp": "2025-07-25T11:17:01.541+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1398126868590362704",
+          "url": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\IMG_6070-16374.png",
+          "fileName": "IMG_6070.png",
+          "fileSizeBytes": 410431
+        },
+        {
+          "id": "1398126868892356840",
+          "url": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\IMG_6071-DE291.png",
+          "fileName": "IMG_6071.png",
+          "fileSizeBytes": 378803
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398127045329948722",
+      "type": "Default",
+      "timestamp": "2025-07-25T11:17:43.551+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "好みがあるでしょうが、日足レベルでできたOBや OB fvgは結構好きです",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398128835169357967",
+      "type": "Default",
+      "timestamp": "2025-07-25T11:24:50.282+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "あ、これは日足ではなく昨日同様。東京10時始値ラインです\nS\uD83D\uDFF0start",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83E\uDEE1",
+            "code": "\uD83E\uDEE1",
+            "isAnimated": false,
+            "imageUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\1fae1-B19DE.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "558306870553739284",
+              "name": "mg.mg.mg",
+              "discriminator": "0000",
+              "nickname": "mg",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\4-4551A.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDFF0",
+          "code": "\uD83D\uDFF0",
+          "isAnimated": false,
+          "imageUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\1f7f0-E39F9.svg"
+        }
+      ]
+    },
+    {
+      "id": "1398129230969307136",
+      "type": "Default",
+      "timestamp": "2025-07-25T11:26:24.648+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1398129230377914388",
+          "url": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\IMG_6074-1BB98.png",
+          "fileName": "IMG_6074.png",
+          "fileSizeBytes": 404423
+        },
+        {
+          "id": "1398129230725779466",
+          "url": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\IMG_6075-01F06.png",
+          "fileName": "IMG_6075.png",
+          "fileSizeBytes": 497142
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398129597110816869",
+      "type": "Default",
+      "timestamp": "2025-07-25T11:27:51.943+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "昨日も10時SのOB fvgからです。絶対とは限りませんが。とりあえず10時台は午前中で1番注意して見てます",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83E\uDEE1",
+            "code": "\uD83E\uDEE1",
+            "isAnimated": false,
+            "imageUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\1fae1-B19DE.svg"
+          },
+          "count": 7,
+          "users": [
+            {
+              "id": "876804384472829972",
+              "name": "muffinandpizza0609",
+              "discriminator": "0000",
+              "nickname": "まふぃんとピザ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\78d7d07bbbb1fe2aaaf754c6ae4174fa-9E5E1.png"
+            },
+            {
+              "id": "1009423153648369714",
+              "name": "rouraito",
+              "discriminator": "0000",
+              "nickname": "Ryoto",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\1-B2132.png"
+            },
+            {
+              "id": "1029336811304140870",
+              "name": "minarai_niki",
+              "discriminator": "0000",
+              "nickname": "ゆーさん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\ceeda7d2592468f287d5254277a0cf03-B8A10.png"
+            },
+            {
+              "id": "1088460949268217876",
+              "name": "k.f0078",
+              "discriminator": "0000",
+              "nickname": "kei❤",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\3846a0ea0b683b6a9aadf0df5555b2f4-D8BB5.png"
+            },
+            {
+              "id": "1170727436615430208",
+              "name": "pess0115_07547",
+              "discriminator": "0000",
+              "nickname": "ペスヒロシ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\651b16bbaab754e8e906b3a41b89e0e4-CCBA0.png"
+            },
+            {
+              "id": "1248415781734056078",
+              "name": "toshi016949",
+              "discriminator": "0000",
+              "nickname": "とし",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\6c5996770c985bcd6e5b68131ff2ba04-66129.png"
+            },
+            {
+              "id": "1419625535897600071",
+              "name": "ayuniyan_25256",
+              "discriminator": "0000",
+              "nickname": "あゆにゃん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files\\5-E9BDB.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 9
+}

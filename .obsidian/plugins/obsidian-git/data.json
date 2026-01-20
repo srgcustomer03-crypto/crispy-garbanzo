@@ -1,0 +1,11 @@
+{
+  "autoSaveInterval": 5,
+  "autoPullInterval": 5,
+  "serviceMode": "interval",
+  "disablePush": false,
+  "pullBeforePush": true,
+  "commitMessage": "vault backup: {{date}}",
+  "syncMethod": "merge",
+  "authorName": "Obsidian",
+  "authorEmail": "obsidian@local"
+}

@@ -1,0 +1,572 @@
+{
+  "guild": {
+    "id": "1383010560379191357",
+    "name": "YDHS",
+    "iconUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\bad6ad74efef42b22c6a9e596258de5d-A02A0.png"
+  },
+  "channel": {
+    "id": "1385206487252467772",
+    "type": "GuildTextChat",
+    "categoryId": "1384823829607485510",
+    "category": "ロジック➕CRT(プラスα)",
+    "name": "ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-01-19T01:28:41.5157216+09:00",
+  "messages": [
+    {
+      "id": "1385206551895347392",
+      "type": "Default",
+      "timestamp": "2025-06-19T19:36:17.865+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1385206551421124759",
+          "url": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\IMG_3699-8190C.png",
+          "fileName": "IMG_3699.png",
+          "fileSizeBytes": 404953
+        },
+        {
+          "id": "1385206551723376670",
+          "url": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\IMG_3700-332B4.png",
+          "fileName": "IMG_3700.png",
+          "fileSizeBytes": 431257
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\1f44d-27259.svg"
+          },
+          "count": 4,
+          "users": [
+            {
+              "id": "1066350817382244374",
+              "name": "inboisu",
+              "discriminator": "0000",
+              "nickname": "シバケン",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\4-4551A.png"
+            },
+            {
+              "id": "1274683303580139530",
+              "name": "galon_26839",
+              "discriminator": "0000",
+              "nickname": "がろん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\25b7e6336319bf467f20ed1f8b6f4fe0-83555.png"
+            },
+            {
+              "id": "1303196367388409938",
+              "name": "maru_51402",
+              "discriminator": "0000",
+              "nickname": "まる",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\5-E9BDB.png"
+            },
+            {
+              "id": "1319247754655961099",
+              "name": "nekoma_12248",
+              "discriminator": "0000",
+              "nickname": "ふー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\0-EB806.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1385206857530085497",
+      "type": "Default",
+      "timestamp": "2025-06-19T19:37:30.734+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "例。15分足前足1度ブレイクしたのに戻された際に包み足系",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1385888208247853231",
+      "type": "Default",
+      "timestamp": "2025-06-21T16:44:57.404+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1385888208042328175",
+          "url": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\IMG_3852-47ADE.png",
+          "fileName": "IMG_3852.png",
+          "fileSizeBytes": 564443
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\1f44d-27259.svg"
+          },
+          "count": 6,
+          "users": [
+            {
+              "id": "876804384472829972",
+              "name": "muffinandpizza0609",
+              "discriminator": "0000",
+              "nickname": "まふぃんとピザ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\78d7d07bbbb1fe2aaaf754c6ae4174fa-9E5E1.png"
+            },
+            {
+              "id": "1066350817382244374",
+              "name": "inboisu",
+              "discriminator": "0000",
+              "nickname": "シバケン",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\4-4551A.png"
+            },
+            {
+              "id": "1161945680215019611",
+              "name": "kki__ssss373",
+              "discriminator": "0000",
+              "nickname": "ふくろう",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\4-4551A.png"
+            },
+            {
+              "id": "1274683303580139530",
+              "name": "galon_26839",
+              "discriminator": "0000",
+              "nickname": "がろん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\25b7e6336319bf467f20ed1f8b6f4fe0-83555.png"
+            },
+            {
+              "id": "1303196367388409938",
+              "name": "maru_51402",
+              "discriminator": "0000",
+              "nickname": "まる",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\5-E9BDB.png"
+            },
+            {
+              "id": "1408038778995736589",
+              "name": "dk04766",
+              "discriminator": "0000",
+              "nickname": "DK",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\5445ffd7ffb201a98393cbdf684ea4b1-A4ECE.png"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE0D",
+            "code": "heart_eyes",
+            "isAnimated": false,
+            "imageUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\1f60d-BEAFF.svg"
+          },
+          "count": 2,
+          "users": [
+            {
+              "id": "1319247754655961099",
+              "name": "nekoma_12248",
+              "discriminator": "0000",
+              "nickname": "ふー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\0-EB806.png"
+            },
+            {
+              "id": "1408038778995736589",
+              "name": "dk04766",
+              "discriminator": "0000",
+              "nickname": "DK",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\5445ffd7ffb201a98393cbdf684ea4b1-A4ECE.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1385888430579519560",
+      "type": "Default",
+      "timestamp": "2025-06-21T16:45:50.412+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "抵抗付近での大陽線、大陰線からの更新否定包み足系",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1385888606987620364",
+      "type": "Default",
+      "timestamp": "2025-06-21T16:46:32.471+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1385888606618386432",
+          "url": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\IMG_3850-1D65C.png",
+          "fileName": "IMG_3850.png",
+          "fileSizeBytes": 469551
+        },
+        {
+          "id": "1385888606928769054",
+          "url": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\IMG_3849-83745.png",
+          "fileName": "IMG_3849.png",
+          "fileSizeBytes": 467927
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1385888754568265798",
+      "type": "Default",
+      "timestamp": "2025-06-21T16:47:07.657+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "1時間15分ともに高値更新否定の包み足系",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1393378382762344449",
+      "type": "Default",
+      "timestamp": "2025-07-12T08:48:14.169+09:00",
+      "timestampEdited": "2025-07-12T09:12:45.035+09:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "プラスαとは\nこのcrtの事で\nわかりやすく言うと、右隣15足\nそれを一旦前足をブレイクして\n否定した際にロジック足でひていしてる事をプラスαと呼んです。ロジック足はかわりません\n\n仮に1時間が切り替わる時は1時間足の高安ねも同時に見てます",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1393378409383460915",
+      "type": "Default",
+      "timestamp": "2025-07-12T08:48:20.516+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1393378409090125965",
+          "url": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\IMG_5146-288CB.png",
+          "fileName": "IMG_5146.png",
+          "fileSizeBytes": 483007
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83E\uDEE1",
+            "code": "\uD83E\uDEE1",
+            "isAnimated": false,
+            "imageUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\1fae1-B19DE.svg"
+          },
+          "count": 7,
+          "users": [
+            {
+              "id": "733237169082073138",
+              "name": "hiroko1818",
+              "discriminator": "0000",
+              "nickname": "さるぉ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\5-E9BDB.png"
+            },
+            {
+              "id": "1009423153648369714",
+              "name": "rouraito",
+              "discriminator": "0000",
+              "nickname": "Ryoto",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\1-B2132.png"
+            },
+            {
+              "id": "1066350817382244374",
+              "name": "inboisu",
+              "discriminator": "0000",
+              "nickname": "シバケン",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\4-4551A.png"
+            },
+            {
+              "id": "1274683303580139530",
+              "name": "galon_26839",
+              "discriminator": "0000",
+              "nickname": "がろん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\25b7e6336319bf467f20ed1f8b6f4fe0-83555.png"
+            },
+            {
+              "id": "1293035024379285504",
+              "name": "tomtom127",
+              "discriminator": "0000",
+              "nickname": "Ri·͜· ♡",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\a9c46b3c51a480dbfc393dc7cbe91f7d-DF2FA.png"
+            },
+            {
+              "id": "1319247754655961099",
+              "name": "nekoma_12248",
+              "discriminator": "0000",
+              "nickname": "ふー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\0-EB806.png"
+            },
+            {
+              "id": "1335181808509128755",
+              "name": "washiziyayo_7777",
+              "discriminator": "0000",
+              "nickname": "Yuuki",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\8b3cc20d422340898d86951234a0baa6-0C8D2.png"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE0D",
+            "code": "heart_eyes",
+            "isAnimated": false,
+            "imageUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\1f60d-BEAFF.svg"
+          },
+          "count": 2,
+          "users": [
+            {
+              "id": "1335181808509128755",
+              "name": "washiziyayo_7777",
+              "discriminator": "0000",
+              "nickname": "Yuuki",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\8b3cc20d422340898d86951234a0baa6-0C8D2.png"
+            },
+            {
+              "id": "1408038778995736589",
+              "name": "dk04766",
+              "discriminator": "0000",
+              "nickname": "DK",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\5445ffd7ffb201a98393cbdf684ea4b1-A4ECE.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1394995911175966741",
+      "type": "Default",
+      "timestamp": "2025-07-16T19:55:42.995+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1394995911100334131",
+          "url": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\IMG_5467-AE06C.png",
+          "fileName": "IMG_5467.png",
+          "fileSizeBytes": 567856
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1394995982239797248",
+      "type": "Default",
+      "timestamp": "2025-07-16T19:55:59.938+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "ロジック箇所でのプラα",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - ロジック➕CRT(プラスα) - ロジック箇所もしくはfvg箇所などでの更新からの否定ロジック足 [1385206487252467772].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 10
+}

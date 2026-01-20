@@ -1,0 +1,98 @@
+{
+  "guild": {
+    "id": "1383010560379191357",
+    "name": "YDHS",
+    "iconUrl": "YDHS - ロジック➕フィボナッチ - フィボナッチ3段目orディスカウントzoneプレミアムzone [1384824876845760593].json_Files\\bad6ad74efef42b22c6a9e596258de5d-A02A0.png"
+  },
+  "channel": {
+    "id": "1384824876845760593",
+    "type": "GuildTextChat",
+    "categoryId": "1384823702025142312",
+    "category": "ロジック➕フィボナッチ",
+    "name": "フィボナッチ3段目orディスカウントzoneプレミアムzone",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-01-19T01:28:37.0078531+09:00",
+  "messages": [
+    {
+      "id": "1384827204084564008",
+      "type": "Default",
+      "timestamp": "2025-06-18T18:28:54.299+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "フィボナッチ0.5から3段目ディスカウンゾーンでのロジック",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - ロジック➕フィボナッチ - フィボナッチ3段目orディスカウントzoneプレミアムzone [1384824876845760593].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1384827342735671307",
+      "type": "Default",
+      "timestamp": "2025-06-18T18:29:27.356+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - ロジック➕フィボナッチ - フィボナッチ3段目orディスカウントzoneプレミアムzone [1384824876845760593].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1384827341578174505",
+          "url": "YDHS - ロジック➕フィボナッチ - フィボナッチ3段目orディスカウントzoneプレミアムzone [1384824876845760593].json_Files\\IMG_3651-50B5D.png",
+          "fileName": "IMG_3651.png",
+          "fileSizeBytes": 663320
+        },
+        {
+          "id": "1384827341901004852",
+          "url": "YDHS - ロジック➕フィボナッチ - フィボナッチ3段目orディスカウントzoneプレミアムzone [1384824876845760593].json_Files\\IMG_3652-63345.png",
+          "fileName": "IMG_3652.png",
+          "fileSizeBytes": 576844
+        },
+        {
+          "id": "1384827342215581697",
+          "url": "YDHS - ロジック➕フィボナッチ - フィボナッチ3段目orディスカウントzoneプレミアムzone [1384824876845760593].json_Files\\IMG_3649-03879.png",
+          "fileName": "IMG_3649.png",
+          "fileSizeBytes": 658031
+        },
+        {
+          "id": "1384827342538670140",
+          "url": "YDHS - ロジック➕フィボナッチ - フィボナッチ3段目orディスカウントzoneプレミアムzone [1384824876845760593].json_Files\\IMG_3650-AFF2D.png",
+          "fileName": "IMG_3650.png",
+          "fileSizeBytes": 493223
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 2
+}

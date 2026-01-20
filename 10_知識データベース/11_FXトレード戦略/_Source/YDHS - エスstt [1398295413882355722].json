@@ -1,0 +1,1442 @@
+{
+  "guild": {
+    "id": "1383010560379191357",
+    "name": "YDHS",
+    "iconUrl": "YDHS - エスstt [1398295413882355722].json_Files\\bad6ad74efef42b22c6a9e596258de5d-A02A0.png"
+  },
+  "channel": {
+    "id": "1398295413882355722",
+    "type": "GuildTextChat",
+    "categoryId": null,
+    "category": null,
+    "name": "エスstt",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-01-19T01:58:33.4488877+09:00",
+  "messages": [
+    {
+      "id": "1398295605201211513",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:27:31.356+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "最近見せてるSライン",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398295988300550156",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:29:02.694+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "S(にごしてSTT)",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398296067832811674",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:29:21.656+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "STARの頭文字のS",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398296188327039128",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:29:50.384+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "なんのスタートか。4時間足の切り替わり時間のスタート",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398296348792586380",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:30:28.642+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "10時\u300014時\u300018時\u300022時\u30002時",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398296449007095889",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:30:52.535+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "意識の四つ目と考えてもらったらいいです。",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398296791056650322",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:32:14.086+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "本来はノーマルロジックだけ伝えようかと思いましたが。絶対勝って私のディスコードからいなくなって欲しい思いで。プラスαとSTTを書いていきます",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "❤️",
+            "code": "heart",
+            "isAnimated": false,
+            "imageUrl": "YDHS - エスstt [1398295413882355722].json_Files\\2764-A3D25.svg"
+          },
+          "count": 22,
+          "users": [
+            {
+              "id": "392885194127966224",
+              "name": "yanyan4811",
+              "discriminator": "0000",
+              "nickname": "yanyan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\3ac202c628c27133ebf609166284aa51-B6211.png"
+            },
+            {
+              "id": "733237169082073138",
+              "name": "hiroko1818",
+              "discriminator": "0000",
+              "nickname": "さるぉ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+            },
+            {
+              "id": "876804384472829972",
+              "name": "muffinandpizza0609",
+              "discriminator": "0000",
+              "nickname": "まふぃんとピザ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\78d7d07bbbb1fe2aaaf754c6ae4174fa-9E5E1.png"
+            },
+            {
+              "id": "892410170259410994",
+              "name": "misa_q",
+              "discriminator": "0000",
+              "nickname": "misaQ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\0c2c1441d5ca002f76153eeb110b80e3-58783.png"
+            },
+            {
+              "id": "912155920799260733",
+              "name": "takkun358",
+              "discriminator": "0000",
+              "nickname": "たくろー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\2-ADBB4.png"
+            },
+            {
+              "id": "923063813358628955",
+              "name": "marumeme",
+              "discriminator": "0000",
+              "nickname": "まるめめ。",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\cbe01e4fbbdde91364552c3a65cf9812-0F51D.png"
+            },
+            {
+              "id": "979650892053770300",
+              "name": "ripenn",
+              "discriminator": "0000",
+              "nickname": "りぺん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\d1a0933aebe7bce2ee329cb69b7b0149-A3D54.png"
+            },
+            {
+              "id": "1009423153648369714",
+              "name": "rouraito",
+              "discriminator": "0000",
+              "nickname": "Ryoto",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\1-B2132.png"
+            },
+            {
+              "id": "1029336811304140870",
+              "name": "minarai_niki",
+              "discriminator": "0000",
+              "nickname": "ゆーさん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\ceeda7d2592468f287d5254277a0cf03-B8A10.png"
+            },
+            {
+              "id": "1034792648445276171",
+              "name": "daniel08899659",
+              "discriminator": "0000",
+              "nickname": "Daniel",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\89b33be4edfe02edd26bf74e9291a32e-4BB89.png"
+            },
+            {
+              "id": "1035841155012755456",
+              "name": "rara9071",
+              "discriminator": "0000",
+              "nickname": "ごう",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\1-B2132.png"
+            },
+            {
+              "id": "1122171964870623415",
+              "name": "hh77050",
+              "discriminator": "0000",
+              "nickname": "り",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\0-EB806.png"
+            },
+            {
+              "id": "1187371101832106034",
+              "name": "otsu_____",
+              "discriminator": "0000",
+              "nickname": "おつ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\f77715181a54803f981b91e20f26f8b4-683F9.png"
+            },
+            {
+              "id": "1205107434142695446",
+              "name": "takahiro0915_74946",
+              "discriminator": "0000",
+              "nickname": "ひひ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\6c5996770c985bcd6e5b68131ff2ba04-FBEE4.png"
+            },
+            {
+              "id": "1248415781734056078",
+              "name": "toshi016949",
+              "discriminator": "0000",
+              "nickname": "とし",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\6c5996770c985bcd6e5b68131ff2ba04-66129.png"
+            },
+            {
+              "id": "1274683303580139530",
+              "name": "galon_26839",
+              "discriminator": "0000",
+              "nickname": "がろん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\25b7e6336319bf467f20ed1f8b6f4fe0-83555.png"
+            },
+            {
+              "id": "1293035024379285504",
+              "name": "tomtom127",
+              "discriminator": "0000",
+              "nickname": "Ri·͜· ♡",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\a9c46b3c51a480dbfc393dc7cbe91f7d-DF2FA.png"
+            },
+            {
+              "id": "1319247754655961099",
+              "name": "nekoma_12248",
+              "discriminator": "0000",
+              "nickname": "ふー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\0-EB806.png"
+            },
+            {
+              "id": "1323628151204483183",
+              "name": "hasegawa0119",
+              "discriminator": "0000",
+              "nickname": "ハセガワ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\6c5996770c985bcd6e5b68131ff2ba04-FFA8F.png"
+            },
+            {
+              "id": "1335181808509128755",
+              "name": "washiziyayo_7777",
+              "discriminator": "0000",
+              "nickname": "Yuuki",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\8b3cc20d422340898d86951234a0baa6-0C8D2.png"
+            },
+            {
+              "id": "1384753612596711445",
+              "name": "kimi924",
+              "discriminator": "0000",
+              "nickname": "きみ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+            },
+            {
+              "id": "1408038778995736589",
+              "name": "dk04766",
+              "discriminator": "0000",
+              "nickname": "DK",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5445ffd7ffb201a98393cbdf684ea4b1-A4ECE.png"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE0D",
+            "code": "heart_eyes",
+            "isAnimated": false,
+            "imageUrl": "YDHS - エスstt [1398295413882355722].json_Files\\1f60d-BEAFF.svg"
+          },
+          "count": 3,
+          "users": [
+            {
+              "id": "1335181808509128755",
+              "name": "washiziyayo_7777",
+              "discriminator": "0000",
+              "nickname": "Yuuki",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\8b3cc20d422340898d86951234a0baa6-0C8D2.png"
+            },
+            {
+              "id": "1408038778995736589",
+              "name": "dk04766",
+              "discriminator": "0000",
+              "nickname": "DK",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5445ffd7ffb201a98393cbdf684ea4b1-A4ECE.png"
+            },
+            {
+              "id": "1419625535897600071",
+              "name": "ayuniyan_25256",
+              "discriminator": "0000",
+              "nickname": "あゆにゃん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398297478750670991",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:34:58.045+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "昨日から見せてるSTT\nスタートトレンドTバック\nいやいや。\nスタートのSです。Xでは常にカモフラージュしてます",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398297590616817664",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:35:24.716+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "とりあえず10時4時間足スタートですよね",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398297633541328969",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:35:34.95+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1398297633134743582",
+          "url": "YDHS - エスstt [1398295413882355722].json_Files\\IMG_6132-1ACD1.png",
+          "fileName": "IMG_6132.png",
+          "fileSizeBytes": 383145
+        },
+        {
+          "id": "1398297633491255487",
+          "url": "YDHS - エスstt [1398295413882355722].json_Files\\IMG_6133-556AB.png",
+          "fileName": "IMG_6133.png",
+          "fileSizeBytes": 366844
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83E\uDEE1",
+            "code": "\uD83E\uDEE1",
+            "isAnimated": false,
+            "imageUrl": "YDHS - エスstt [1398295413882355722].json_Files\\1fae1-B19DE.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "1419625535897600071",
+              "name": "ayuniyan_25256",
+              "discriminator": "0000",
+              "nickname": "あゆにゃん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398298124673482908",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:37:32.045+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "上位足の高安値をみろ、意識しろ、上位足に逆らうな、そんな言葉ばかり聞いてきたかと思います。それが普通で正解です。\n私は上位足のスタートを意識します。",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398298409382707310",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:38:39.925+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "始値に水平線ですね。\n4時間足がどちらに向かいたいのかをまず見ます",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398299064134537337",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:41:16.03+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1398299063782346892",
+          "url": "YDHS - エスstt [1398295413882355722].json_Files\\IMG_6134-F2BEE.png",
+          "fileName": "IMG_6134.png",
+          "fileSizeBytes": 465100
+        },
+        {
+          "id": "1398299064151572691",
+          "url": "YDHS - エスstt [1398295413882355722].json_Files\\IMG_6135-0AB77.png",
+          "fileName": "IMG_6135.png",
+          "fileSizeBytes": 501149
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83E\uDEE1",
+            "code": "\uD83E\uDEE1",
+            "isAnimated": false,
+            "imageUrl": "YDHS - エスstt [1398295413882355722].json_Files\\1fae1-B19DE.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "1419625535897600071",
+              "name": "ayuniyan_25256",
+              "discriminator": "0000",
+              "nickname": "あゆにゃん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398299105683308544",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:41:25.936+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "入り方は相変わらずロジック足です",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398300919468130324",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:48:38.376+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "今の時間のSTT",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398301087978618951",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:49:18.552+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "分かりずらい時は fvgが出た方のOBを私は優先します",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398301955700559872",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:52:45.433+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "14時STT",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398303333722099784",
+      "type": "Default",
+      "timestamp": "2025-07-25T22:58:13.979+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "18時のSTTは選びにくかったですね。綺麗に足が出たのはショートの方でした",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398329807799844954",
+      "type": "Default",
+      "timestamp": "2025-07-26T00:43:25.891+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1398329807133216909",
+          "url": "YDHS - エスstt [1398295413882355722].json_Files\\IMG_6142-36A5B.png",
+          "fileName": "IMG_6142.png",
+          "fileSizeBytes": 424256
+        },
+        {
+          "id": "1398329807535734904",
+          "url": "YDHS - エスstt [1398295413882355722].json_Files\\IMG_6143-F68D1.png",
+          "fileName": "IMG_6143.png",
+          "fileSizeBytes": 415460
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398329826581942492",
+      "type": "Default",
+      "timestamp": "2025-07-26T00:43:30.369+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1398329825533366474",
+          "url": "YDHS - エスstt [1398295413882355722].json_Files\\IMG_6144-8EBAD.png",
+          "fileName": "IMG_6144.png",
+          "fileSizeBytes": 442470
+        },
+        {
+          "id": "1398329826233811074",
+          "url": "YDHS - エスstt [1398295413882355722].json_Files\\IMG_6145-0A6F8.png",
+          "fileName": "IMG_6145.png",
+          "fileSizeBytes": 470655
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398332363481677844",
+      "type": "Default",
+      "timestamp": "2025-07-26T00:53:35.213+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "無茶苦茶下が強いですねw\nXでもロング２つで1000ピプ以上握ってるって自慢してた方いましたが昨日今日でどうなってくかね。w\nま、こんな感じで10.14.18.22.2時は私は動きを見ます",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83E\uDEE1",
+            "code": "\uD83E\uDEE1",
+            "isAnimated": false,
+            "imageUrl": "YDHS - エスstt [1398295413882355722].json_Files\\1fae1-B19DE.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "1274683303580139530",
+              "name": "galon_26839",
+              "discriminator": "0000",
+              "nickname": "がろん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\25b7e6336319bf467f20ed1f8b6f4fe0-83555.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398332403440685066",
+      "type": "Default",
+      "timestamp": "2025-07-26T00:53:44.74+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1398332403164123237",
+          "url": "YDHS - エスstt [1398295413882355722].json_Files\\IMG_6146-9621F.png",
+          "fileName": "IMG_6146.png",
+          "fileSizeBytes": 500292
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398332783553806498",
+      "type": "Default",
+      "timestamp": "2025-07-26T00:55:15.366+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "ビットも綺麗にハマってましたよね",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398332812855349451",
+      "type": "Default",
+      "timestamp": "2025-07-26T00:55:22.352+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1398332812578521109",
+          "url": "YDHS - エスstt [1398295413882355722].json_Files\\IMG_6147-14548.png",
+          "fileName": "IMG_6147.png",
+          "fileSizeBytes": 309291
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398335722590703686",
+      "type": "Default",
+      "timestamp": "2025-07-26T01:06:56.087+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "因みに木曜日のアジア。金曜日とにてましたよね。木曜日はOB返しで好きな形のSTT",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398335751413825596",
+      "type": "Default",
+      "timestamp": "2025-07-26T01:07:02.959+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1398335751166623764",
+          "url": "YDHS - エスstt [1398295413882355722].json_Files\\IMG_6148-092D5.png",
+          "fileName": "IMG_6148.png",
+          "fileSizeBytes": 452808
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "YDHS - エスstt [1398295413882355722].json_Files\\1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "1408038778995736589",
+              "name": "dk04766",
+              "discriminator": "0000",
+              "nickname": "DK",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5445ffd7ffb201a98393cbdf684ea4b1-A4ECE.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398338550088470740",
+      "type": "Default",
+      "timestamp": "2025-07-26T01:18:10.215+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "例えば4時間足crtをやる時にも\nやりやすくなるかと。プラスαとら一緒ですよねを、ブレイク否定OB戻りのロジック足",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398338603238817906",
+      "type": "Default",
+      "timestamp": "2025-07-26T01:18:22.887+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1398338602509009017",
+          "url": "YDHS - エスstt [1398295413882355722].json_Files\\IMG_6149-CD0FB.png",
+          "fileName": "IMG_6149.png",
+          "fileSizeBytes": 547394
+        },
+        {
+          "id": "1398338602953478184",
+          "url": "YDHS - エスstt [1398295413882355722].json_Files\\IMG_6150-193FD.png",
+          "fileName": "IMG_6150.png",
+          "fileSizeBytes": 492034
+        },
+        {
+          "id": "1398338603385622668",
+          "url": "YDHS - エスstt [1398295413882355722].json_Files\\IMG_6151-EAF09.png",
+          "fileName": "IMG_6151.png",
+          "fileSizeBytes": 522756
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "YDHS - エスstt [1398295413882355722].json_Files\\1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "1408038778995736589",
+              "name": "dk04766",
+              "discriminator": "0000",
+              "nickname": "DK",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5445ffd7ffb201a98393cbdf684ea4b1-A4ECE.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398340462577979483",
+      "type": "Default",
+      "timestamp": "2025-07-26T01:25:46.188+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "話は変わって\n4時間足のOBがゾーンが広いから仕留めにくい？と言われますが？私も１発で仕留めにくいです。だから初めに言いました。OB fvgを理解して自分で引ける方限定ですと。広くて仕留めずらいなら一度、5分なり15分なり弾かせてOBなり作らせてください。その後狙ってください",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1398340506722766921",
+      "type": "Default",
+      "timestamp": "2025-07-26T01:25:56.713+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1398340505825181807",
+          "url": "YDHS - エスstt [1398295413882355722].json_Files\\IMG_6152-EACCD.png",
+          "fileName": "IMG_6152.png",
+          "fileSizeBytes": 613145
+        },
+        {
+          "id": "1398340506521702440",
+          "url": "YDHS - エスstt [1398295413882355722].json_Files\\IMG_6153-64326.png",
+          "fileName": "IMG_6153.png",
+          "fileSizeBytes": 493011
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83E\uDEE1",
+            "code": "\uD83E\uDEE1",
+            "isAnimated": false,
+            "imageUrl": "YDHS - エスstt [1398295413882355722].json_Files\\1fae1-B19DE.svg"
+          },
+          "count": 9,
+          "users": [
+            {
+              "id": "392885194127966224",
+              "name": "yanyan4811",
+              "discriminator": "0000",
+              "nickname": "yanyan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\3ac202c628c27133ebf609166284aa51-B6211.png"
+            },
+            {
+              "id": "733237169082073138",
+              "name": "hiroko1818",
+              "discriminator": "0000",
+              "nickname": "さるぉ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+            },
+            {
+              "id": "876804384472829972",
+              "name": "muffinandpizza0609",
+              "discriminator": "0000",
+              "nickname": "まふぃんとピザ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\78d7d07bbbb1fe2aaaf754c6ae4174fa-9E5E1.png"
+            },
+            {
+              "id": "1029336811304140870",
+              "name": "minarai_niki",
+              "discriminator": "0000",
+              "nickname": "ゆーさん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\ceeda7d2592468f287d5254277a0cf03-B8A10.png"
+            },
+            {
+              "id": "1034792648445276171",
+              "name": "daniel08899659",
+              "discriminator": "0000",
+              "nickname": "Daniel",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\89b33be4edfe02edd26bf74e9291a32e-4BB89.png"
+            },
+            {
+              "id": "1054059000859205712",
+              "name": "takumi7846",
+              "discriminator": "0000",
+              "nickname": "豊受麒麟",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\95bbf889e13a31333754898af6ab8981-4D8B9.png"
+            },
+            {
+              "id": "1248415781734056078",
+              "name": "toshi016949",
+              "discriminator": "0000",
+              "nickname": "とし",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\6c5996770c985bcd6e5b68131ff2ba04-66129.png"
+            },
+            {
+              "id": "1274683303580139530",
+              "name": "galon_26839",
+              "discriminator": "0000",
+              "nickname": "がろん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\25b7e6336319bf467f20ed1f8b6f4fe0-83555.png"
+            },
+            {
+              "id": "1408038778995736589",
+              "name": "dk04766",
+              "discriminator": "0000",
+              "nickname": "DK",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5445ffd7ffb201a98393cbdf684ea4b1-A4ECE.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1402567504823455785",
+      "type": "Default",
+      "timestamp": "2025-08-06T17:22:31.594+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "理解してない人に\n STTのASTTはアジア時間のAの4時間の始まりが10時ASTTです。",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83E\uDEE1",
+            "code": "\uD83E\uDEE1",
+            "isAnimated": false,
+            "imageUrl": "YDHS - エスstt [1398295413882355722].json_Files\\1fae1-B19DE.svg"
+          },
+          "count": 8,
+          "users": [
+            {
+              "id": "833295792177283134",
+              "name": "suouman",
+              "discriminator": "0000",
+              "nickname": "みのむし",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\f7e7c3ce07fbfa202893773d65154666-83CB5.png"
+            },
+            {
+              "id": "885190150517321768",
+              "name": "fantastic_armadillo_57593",
+              "discriminator": "0000",
+              "nickname": "YU",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\1-B2132.png"
+            },
+            {
+              "id": "976302842321191014",
+              "name": "susquatch813",
+              "discriminator": "0000",
+              "nickname": "Miya",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\c61067fb0b340cdd0022f6d5a8794f95-342E5.png"
+            },
+            {
+              "id": "1029336811304140870",
+              "name": "minarai_niki",
+              "discriminator": "0000",
+              "nickname": "ゆーさん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\ceeda7d2592468f287d5254277a0cf03-B8A10.png"
+            },
+            {
+              "id": "1170727436615430208",
+              "name": "pess0115_07547",
+              "discriminator": "0000",
+              "nickname": "ペスヒロシ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\651b16bbaab754e8e906b3a41b89e0e4-CCBA0.png"
+            },
+            {
+              "id": "1335181808509128755",
+              "name": "washiziyayo_7777",
+              "discriminator": "0000",
+              "nickname": "Yuuki",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\8b3cc20d422340898d86951234a0baa6-0C8D2.png"
+            },
+            {
+              "id": "1384753612596711445",
+              "name": "kimi924",
+              "discriminator": "0000",
+              "nickname": "きみ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+            },
+            {
+              "id": "1419625535897600071",
+              "name": "ayuniyan_25256",
+              "discriminator": "0000",
+              "nickname": "あゆにゃん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - エスstt [1398295413882355722].json_Files\\5-E9BDB.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 31
+}

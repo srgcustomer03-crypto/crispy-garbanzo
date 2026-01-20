@@ -1,0 +1,3077 @@
+{
+  "guild": {
+    "id": "1383010560379191357",
+    "name": "YDHS",
+    "iconUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\bad6ad74efef42b22c6a9e596258de5d-A02A0.png"
+  },
+  "channel": {
+    "id": "1383010560911872052",
+    "type": "GuildTextChat",
+    "categoryId": null,
+    "category": null,
+    "name": "zero-magic基本マニュアル３つの意識",
+    "topic": "意識されやすい数値で\n意識された足跡で\n意識された足でエントリー"
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-01-19T23:28:23.0470302+09:00",
+  "messages": [
+    {
+      "id": "1384650960428863642",
+      "type": "Default",
+      "timestamp": "2025-06-18T06:48:34.537+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1384650960600694884",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_3467-553D0.png",
+          "fileName": "IMG_3467.png",
+          "fileSizeBytes": 210232
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDCCD",
+            "code": "round_pushpin",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f4cd-57F96.svg"
+          },
+          "count": 4,
+          "users": [
+            {
+              "id": "876804384472829972",
+              "name": "muffinandpizza0609",
+              "discriminator": "0000",
+              "nickname": "まふぃんとピザ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\78d7d07bbbb1fe2aaaf754c6ae4174fa-9E5E1.png"
+            },
+            {
+              "id": "878128886272114719",
+              "name": "s.h.e.17",
+              "discriminator": "0000",
+              "nickname": "シェリー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\775cc2d10962823bfdbd5f767b9ddc36-A1DBA.png"
+            },
+            {
+              "id": "1009423153648369714",
+              "name": "rouraito",
+              "discriminator": "0000",
+              "nickname": "Ryoto",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1-B2132.png"
+            },
+            {
+              "id": "1408038778995736589",
+              "name": "dk04766",
+              "discriminator": "0000",
+              "nickname": "DK",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5445ffd7ffb201a98393cbdf684ea4b1-A4ECE.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1384805739821924413",
+      "type": "Default",
+      "timestamp": "2025-06-18T17:03:36.82+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "まず。0.000に水平線引く",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1384806382838087730",
+      "type": "Default",
+      "timestamp": "2025-06-18T17:06:10.127+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1384806382615924757",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_3635-D7AEE.png",
+          "fileName": "IMG_3635.png",
+          "fileSizeBytes": 559508
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f44d-27259.svg"
+          },
+          "count": 8,
+          "users": [
+            {
+              "id": "878128886272114719",
+              "name": "s.h.e.17",
+              "discriminator": "0000",
+              "nickname": "シェリー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\775cc2d10962823bfdbd5f767b9ddc36-A1DBA.png"
+            },
+            {
+              "id": "1170727436615430208",
+              "name": "pess0115_07547",
+              "discriminator": "0000",
+              "nickname": "ペスヒロシ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\651b16bbaab754e8e906b3a41b89e0e4-CCBA0.png"
+            },
+            {
+              "id": "1248415781734056078",
+              "name": "toshi016949",
+              "discriminator": "0000",
+              "nickname": "とし",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\6c5996770c985bcd6e5b68131ff2ba04-66129.png"
+            },
+            {
+              "id": "1293035024379285504",
+              "name": "tomtom127",
+              "discriminator": "0000",
+              "nickname": "Ri·͜· ♡",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\a9c46b3c51a480dbfc393dc7cbe91f7d-DF2FA.png"
+            },
+            {
+              "id": "1303196367388409938",
+              "name": "maru_51402",
+              "discriminator": "0000",
+              "nickname": "まる",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+            },
+            {
+              "id": "1319247754655961099",
+              "name": "nekoma_12248",
+              "discriminator": "0000",
+              "nickname": "ふー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\0-EB806.png"
+            },
+            {
+              "id": "1358308935077200053",
+              "name": "gyuutantsf",
+              "discriminator": "0000",
+              "nickname": "Gyuutan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3a6432fdbf8929c41558211eb67e0dc8-F9ECC.png"
+            },
+            {
+              "id": "1419625535897600071",
+              "name": "ayuniyan_25256",
+              "discriminator": "0000",
+              "nickname": "あゆにゃん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1384807330855780453",
+      "type": "Default",
+      "timestamp": "2025-06-18T17:09:56.152+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "0.000に発生した\n上足。3分から時には4時間足まで。綺麗なOB出来ればOB fvgにゾーンを引く",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1384807390767218698",
+      "type": "Default",
+      "timestamp": "2025-06-18T17:10:10.436+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1384807389605396510",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_3639-AC32C.png",
+          "fileName": "IMG_3639.png",
+          "fileSizeBytes": 530995
+        },
+        {
+          "id": "1384807390087483442",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_3638-5A95B.png",
+          "fileName": "IMG_3638.png",
+          "fileSizeBytes": 580938
+        },
+        {
+          "id": "1384807390427484170",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_3637-41D78.png",
+          "fileName": "IMG_3637.png",
+          "fileSizeBytes": 540437
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f44d-27259.svg"
+          },
+          "count": 8,
+          "users": [
+            {
+              "id": "878128886272114719",
+              "name": "s.h.e.17",
+              "discriminator": "0000",
+              "nickname": "シェリー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\775cc2d10962823bfdbd5f767b9ddc36-A1DBA.png"
+            },
+            {
+              "id": "1170727436615430208",
+              "name": "pess0115_07547",
+              "discriminator": "0000",
+              "nickname": "ペスヒロシ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\651b16bbaab754e8e906b3a41b89e0e4-CCBA0.png"
+            },
+            {
+              "id": "1248415781734056078",
+              "name": "toshi016949",
+              "discriminator": "0000",
+              "nickname": "とし",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\6c5996770c985bcd6e5b68131ff2ba04-66129.png"
+            },
+            {
+              "id": "1293035024379285504",
+              "name": "tomtom127",
+              "discriminator": "0000",
+              "nickname": "Ri·͜· ♡",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\a9c46b3c51a480dbfc393dc7cbe91f7d-DF2FA.png"
+            },
+            {
+              "id": "1303196367388409938",
+              "name": "maru_51402",
+              "discriminator": "0000",
+              "nickname": "まる",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+            },
+            {
+              "id": "1319247754655961099",
+              "name": "nekoma_12248",
+              "discriminator": "0000",
+              "nickname": "ふー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\0-EB806.png"
+            },
+            {
+              "id": "1358308935077200053",
+              "name": "gyuutantsf",
+              "discriminator": "0000",
+              "nickname": "Gyuutan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3a6432fdbf8929c41558211eb67e0dc8-F9ECC.png"
+            },
+            {
+              "id": "1419625535897600071",
+              "name": "ayuniyan_25256",
+              "discriminator": "0000",
+              "nickname": "あゆにゃん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1384807767176511488",
+      "type": "Default",
+      "timestamp": "2025-06-18T17:11:40.179+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "基本はそこにきたからと言って\nエントリーはやらない",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f44d-27259.svg"
+          },
+          "count": 6,
+          "users": [
+            {
+              "id": "878128886272114719",
+              "name": "s.h.e.17",
+              "discriminator": "0000",
+              "nickname": "シェリー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\775cc2d10962823bfdbd5f767b9ddc36-A1DBA.png"
+            },
+            {
+              "id": "1170727436615430208",
+              "name": "pess0115_07547",
+              "discriminator": "0000",
+              "nickname": "ペスヒロシ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\651b16bbaab754e8e906b3a41b89e0e4-CCBA0.png"
+            },
+            {
+              "id": "1248415781734056078",
+              "name": "toshi016949",
+              "discriminator": "0000",
+              "nickname": "とし",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\6c5996770c985bcd6e5b68131ff2ba04-66129.png"
+            },
+            {
+              "id": "1303196367388409938",
+              "name": "maru_51402",
+              "discriminator": "0000",
+              "nickname": "まる",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+            },
+            {
+              "id": "1319247754655961099",
+              "name": "nekoma_12248",
+              "discriminator": "0000",
+              "nickname": "ふー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\0-EB806.png"
+            },
+            {
+              "id": "1358308935077200053",
+              "name": "gyuutantsf",
+              "discriminator": "0000",
+              "nickname": "Gyuutan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3a6432fdbf8929c41558211eb67e0dc8-F9ECC.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1384808302956773437",
+      "type": "Default",
+      "timestamp": "2025-06-18T17:13:47.919+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "必ず包み足系次足",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1384808455377780776",
+      "type": "Default",
+      "timestamp": "2025-06-18T17:14:24.259+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "基本的に前足を確実にまくってれば良いと考えてます",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1384808497358700544",
+      "type": "Default",
+      "timestamp": "2025-06-18T17:14:34.268+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1384808494816821248",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_3642-E8E19.png",
+          "fileName": "IMG_3642.png",
+          "fileSizeBytes": 537381
+        },
+        {
+          "id": "1384808495475331133",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_3641-B7153.png",
+          "fileName": "IMG_3641.png",
+          "fileSizeBytes": 490501
+        },
+        {
+          "id": "1384808496217853994",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_3640-39490.png",
+          "fileName": "IMG_3640.png",
+          "fileSizeBytes": 446595
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f44d-27259.svg"
+          },
+          "count": 4,
+          "users": [
+            {
+              "id": "878128886272114719",
+              "name": "s.h.e.17",
+              "discriminator": "0000",
+              "nickname": "シェリー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\775cc2d10962823bfdbd5f767b9ddc36-A1DBA.png"
+            },
+            {
+              "id": "1170727436615430208",
+              "name": "pess0115_07547",
+              "discriminator": "0000",
+              "nickname": "ペスヒロシ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\651b16bbaab754e8e906b3a41b89e0e4-CCBA0.png"
+            },
+            {
+              "id": "1319247754655961099",
+              "name": "nekoma_12248",
+              "discriminator": "0000",
+              "nickname": "ふー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\0-EB806.png"
+            },
+            {
+              "id": "1358308935077200053",
+              "name": "gyuutantsf",
+              "discriminator": "0000",
+              "nickname": "Gyuutan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3a6432fdbf8929c41558211eb67e0dc8-F9ECC.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1384809265608392744",
+      "type": "Default",
+      "timestamp": "2025-06-18T17:17:37.433+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "基本損切り\n確実にトータルで勝ちに行くには、包み足系の足裏実体で確定して抜かれたら損切り。ズルズル諦め悪いことはやらない",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1384809296407302172",
+      "type": "Default",
+      "timestamp": "2025-06-18T17:17:44.776+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1384809296180547665",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_3643-A1930.png",
+          "fileName": "IMG_3643.png",
+          "fileSizeBytes": 499781
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f44d-27259.svg"
+          },
+          "count": 8,
+          "users": [
+            {
+              "id": "878128886272114719",
+              "name": "s.h.e.17",
+              "discriminator": "0000",
+              "nickname": "シェリー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\775cc2d10962823bfdbd5f767b9ddc36-A1DBA.png"
+            },
+            {
+              "id": "1170727436615430208",
+              "name": "pess0115_07547",
+              "discriminator": "0000",
+              "nickname": "ペスヒロシ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\651b16bbaab754e8e906b3a41b89e0e4-CCBA0.png"
+            },
+            {
+              "id": "1248415781734056078",
+              "name": "toshi016949",
+              "discriminator": "0000",
+              "nickname": "とし",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\6c5996770c985bcd6e5b68131ff2ba04-66129.png"
+            },
+            {
+              "id": "1293035024379285504",
+              "name": "tomtom127",
+              "discriminator": "0000",
+              "nickname": "Ri·͜· ♡",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\a9c46b3c51a480dbfc393dc7cbe91f7d-DF2FA.png"
+            },
+            {
+              "id": "1303196367388409938",
+              "name": "maru_51402",
+              "discriminator": "0000",
+              "nickname": "まる",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+            },
+            {
+              "id": "1319247754655961099",
+              "name": "nekoma_12248",
+              "discriminator": "0000",
+              "nickname": "ふー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\0-EB806.png"
+            },
+            {
+              "id": "1358308935077200053",
+              "name": "gyuutantsf",
+              "discriminator": "0000",
+              "nickname": "Gyuutan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3a6432fdbf8929c41558211eb67e0dc8-F9ECC.png"
+            },
+            {
+              "id": "1419625535897600071",
+              "name": "ayuniyan_25256",
+              "discriminator": "0000",
+              "nickname": "あゆにゃん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1384812192465158195",
+      "type": "Default",
+      "timestamp": "2025-06-18T17:29:15.25+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "TPは慣れるまで、サク抜きでokですが。慣れてきたら、見ての通り0.000区間で動く事がよくあるので、slはしっかり入れて。とりあえずはハーフまで、頑張って次の0.000まで握る。時にはそれ以上も",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1384812223897276420",
+      "type": "Default",
+      "timestamp": "2025-06-18T17:29:22.744+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1384812223486230559",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_3644-CA414.png",
+          "fileName": "IMG_3644.png",
+          "fileSizeBytes": 638485
+        },
+        {
+          "id": "1384812223834357850",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_3645-8A434.png",
+          "fileName": "IMG_3645.png",
+          "fileSizeBytes": 600041
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f44d-27259.svg"
+          },
+          "count": 10,
+          "users": [
+            {
+              "id": "876804384472829972",
+              "name": "muffinandpizza0609",
+              "discriminator": "0000",
+              "nickname": "まふぃんとピザ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\78d7d07bbbb1fe2aaaf754c6ae4174fa-9E5E1.png"
+            },
+            {
+              "id": "878128886272114719",
+              "name": "s.h.e.17",
+              "discriminator": "0000",
+              "nickname": "シェリー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\775cc2d10962823bfdbd5f767b9ddc36-A1DBA.png"
+            },
+            {
+              "id": "1139514746320736299",
+              "name": "hanahana_111",
+              "discriminator": "0000",
+              "nickname": "pap",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3-FB033.png"
+            },
+            {
+              "id": "1170727436615430208",
+              "name": "pess0115_07547",
+              "discriminator": "0000",
+              "nickname": "ペスヒロシ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\651b16bbaab754e8e906b3a41b89e0e4-CCBA0.png"
+            },
+            {
+              "id": "1248415781734056078",
+              "name": "toshi016949",
+              "discriminator": "0000",
+              "nickname": "とし",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\6c5996770c985bcd6e5b68131ff2ba04-66129.png"
+            },
+            {
+              "id": "1293035024379285504",
+              "name": "tomtom127",
+              "discriminator": "0000",
+              "nickname": "Ri·͜· ♡",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\a9c46b3c51a480dbfc393dc7cbe91f7d-DF2FA.png"
+            },
+            {
+              "id": "1303196367388409938",
+              "name": "maru_51402",
+              "discriminator": "0000",
+              "nickname": "まる",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+            },
+            {
+              "id": "1319247754655961099",
+              "name": "nekoma_12248",
+              "discriminator": "0000",
+              "nickname": "ふー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\0-EB806.png"
+            },
+            {
+              "id": "1358308935077200053",
+              "name": "gyuutantsf",
+              "discriminator": "0000",
+              "nickname": "Gyuutan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3a6432fdbf8929c41558211eb67e0dc8-F9ECC.png"
+            },
+            {
+              "id": "1419625535897600071",
+              "name": "ayuniyan_25256",
+              "discriminator": "0000",
+              "nickname": "あゆにゃん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1402141080727846912",
+      "type": "Default",
+      "timestamp": "2025-08-05T13:08:04.167+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1402141079385538580",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_6592-C126C.png",
+          "fileName": "IMG_6592.png",
+          "fileSizeBytes": 500543
+        },
+        {
+          "id": "1402141079674818600",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_6594-7DEF0.png",
+          "fileName": "IMG_6594.png",
+          "fileSizeBytes": 514306
+        },
+        {
+          "id": "1402141080006426708",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_6595-7725F.png",
+          "fileName": "IMG_6595.png",
+          "fileSizeBytes": 470028
+        },
+        {
+          "id": "1402141080270405682",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_6596-AA528.png",
+          "fileName": "IMG_6596.png",
+          "fileSizeBytes": 509113
+        },
+        {
+          "id": "1402141080526262312",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_6590-595BD.png",
+          "fileName": "IMG_6590.png",
+          "fileSizeBytes": 553357
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "✨",
+            "code": "sparkles",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\2728-DCB65.svg"
+          },
+          "count": 9,
+          "users": [
+            {
+              "id": "392885194127966224",
+              "name": "yanyan4811",
+              "discriminator": "0000",
+              "nickname": "yanyan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3ac202c628c27133ebf609166284aa51-B6211.png"
+            },
+            {
+              "id": "876804384472829972",
+              "name": "muffinandpizza0609",
+              "discriminator": "0000",
+              "nickname": "まふぃんとピザ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\78d7d07bbbb1fe2aaaf754c6ae4174fa-9E5E1.png"
+            },
+            {
+              "id": "923063813358628955",
+              "name": "marumeme",
+              "discriminator": "0000",
+              "nickname": "まるめめ。",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\cbe01e4fbbdde91364552c3a65cf9812-0F51D.png"
+            },
+            {
+              "id": "979650892053770300",
+              "name": "ripenn",
+              "discriminator": "0000",
+              "nickname": "りぺん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\d1a0933aebe7bce2ee329cb69b7b0149-A3D54.png"
+            },
+            {
+              "id": "1009423153648369714",
+              "name": "rouraito",
+              "discriminator": "0000",
+              "nickname": "Ryoto",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1-B2132.png"
+            },
+            {
+              "id": "1029336811304140870",
+              "name": "minarai_niki",
+              "discriminator": "0000",
+              "nickname": "ゆーさん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\ceeda7d2592468f287d5254277a0cf03-B8A10.png"
+            },
+            {
+              "id": "1139514746320736299",
+              "name": "hanahana_111",
+              "discriminator": "0000",
+              "nickname": "pap",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3-FB033.png"
+            },
+            {
+              "id": "1170727436615430208",
+              "name": "pess0115_07547",
+              "discriminator": "0000",
+              "nickname": "ペスヒロシ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\651b16bbaab754e8e906b3a41b89e0e4-CCBA0.png"
+            },
+            {
+              "id": "1293035024379285504",
+              "name": "tomtom127",
+              "discriminator": "0000",
+              "nickname": "Ri·͜· ♡",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\a9c46b3c51a480dbfc393dc7cbe91f7d-DF2FA.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409427204885971026",
+      "type": "Default",
+      "timestamp": "2025-08-25T15:40:31.536+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1409427204252635187",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7454-B5C28.png",
+          "fileName": "IMG_7454.png",
+          "fileSizeBytes": 485201
+        },
+        {
+          "id": "1409427204634578944",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7452-FE430.png",
+          "fileName": "IMG_7452.png",
+          "fileSizeBytes": 153273
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409427910934270003",
+      "type": "Default",
+      "timestamp": "2025-08-25T15:43:19.871+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "これはあまり良くないです。4時間前足高値の内側に確定でインしたらショートするつもりが、確定する前しかもインしてない、たまたま抜けました。伝えたいのは内側に確定インしたら、ショート狙いでした",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDCDD",
+            "code": "pencil",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f4dd-4BD2C.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "1274683303580139530",
+              "name": "galon_26839",
+              "discriminator": "0000",
+              "nickname": "がろん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\25b7e6336319bf467f20ed1f8b6f4fe0-83555.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409442076831125554",
+      "type": "Default",
+      "timestamp": "2025-08-25T16:39:37.284+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1409442076365553726",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7461-2FFA6.png",
+          "fileName": "IMG_7461.png",
+          "fileSizeBytes": 469872
+        },
+        {
+          "id": "1409442076638052422",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7460-036CF.png",
+          "fileName": "IMG_7460.png",
+          "fileSizeBytes": 344757
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409442397896835213",
+      "type": "Default",
+      "timestamp": "2025-08-25T16:40:53.832+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "１発目損切り、ま、あの、4時間高値までの距離を無理してとりに行くからなんですけどね。で２発目も4時間高値までの距離を、運良く内側に入れば少しは下がるときたいして、損切り分はかいしゅう。",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83C\uDF89",
+            "code": "tada",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f389-5C738.svg"
+          },
+          "count": 2,
+          "users": [
+            {
+              "id": "878128886272114719",
+              "name": "s.h.e.17",
+              "discriminator": "0000",
+              "nickname": "シェリー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\775cc2d10962823bfdbd5f767b9ddc36-A1DBA.png"
+            },
+            {
+              "id": "1139514746320736299",
+              "name": "hanahana_111",
+              "discriminator": "0000",
+              "nickname": "pap",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3-FB033.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409459925817495572",
+      "type": "Default",
+      "timestamp": "2025-08-25T17:50:32.814+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1409459924513194024",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7477-BD601.png",
+          "fileName": "IMG_7477.png",
+          "fileSizeBytes": 574274
+        },
+        {
+          "id": "1409459924874035231",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7475-34CC5.png",
+          "fileName": "IMG_7475.png",
+          "fileSizeBytes": 540620
+        },
+        {
+          "id": "1409459925243138058",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7473-E73D9.png",
+          "fileName": "IMG_7473.png",
+          "fileSizeBytes": 239509
+        },
+        {
+          "id": "1409459925582610484",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7474-E0546.png",
+          "fileName": "IMG_7474.png",
+          "fileSizeBytes": 341248
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409460241686462545",
+      "type": "Default",
+      "timestamp": "2025-08-25T17:51:48.123+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "いつもと同じですよね。ただ15分1時間前足抜けた箇所で手前で下げられた足跡があるので、とりあえずそこまでのサク抜き",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409474454605529162",
+      "type": "Default",
+      "timestamp": "2025-08-25T18:48:16.747+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1409474454035238992",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7482-900DC.png",
+          "fileName": "IMG_7482.png",
+          "fileSizeBytes": 533035
+        },
+        {
+          "id": "1409474454379298846",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7483-E017B.png",
+          "fileName": "IMG_7483.png",
+          "fileSizeBytes": 436953
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409474592489082931",
+      "type": "Default",
+      "timestamp": "2025-08-25T18:48:49.621+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "毎回同じですよね",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f44d-27259.svg"
+          },
+          "count": 2,
+          "users": [
+            {
+              "id": "876804384472829972",
+              "name": "muffinandpizza0609",
+              "discriminator": "0000",
+              "nickname": "まふぃんとピザ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\78d7d07bbbb1fe2aaaf754c6ae4174fa-9E5E1.png"
+            },
+            {
+              "id": "1319247754655961099",
+              "name": "nekoma_12248",
+              "discriminator": "0000",
+              "nickname": "ふー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\0-EB806.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409497267983089819",
+      "type": "Default",
+      "timestamp": "2025-08-25T20:18:55.88+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1409497267244761148",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7496-62B69.png",
+          "fileName": "IMG_7496.png",
+          "fileSizeBytes": 522123
+        },
+        {
+          "id": "1409497267706007613",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7499-00E01.png",
+          "fileName": "IMG_7499.png",
+          "fileSizeBytes": 586196
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "876804384472829972",
+              "name": "muffinandpizza0609",
+              "discriminator": "0000",
+              "nickname": "まふぃんとピザ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\78d7d07bbbb1fe2aaaf754c6ae4174fa-9E5E1.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409497374329405530",
+      "type": "Default",
+      "timestamp": "2025-08-25T20:19:21.235+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "1時間プラα",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409517262964265022",
+      "type": "Default",
+      "timestamp": "2025-08-25T21:38:23.055+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1409517261827608747",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7506-207EA.png",
+          "fileName": "IMG_7506.png",
+          "fileSizeBytes": 479172
+        },
+        {
+          "id": "1409517262200639519",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7509-8A376.png",
+          "fileName": "IMG_7509.png",
+          "fileSizeBytes": 512723
+        },
+        {
+          "id": "1409517262548762675",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7508-8ACFA.png",
+          "fileName": "IMG_7508.png",
+          "fileSizeBytes": 414311
+        },
+        {
+          "id": "1409517262842499184",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7503-0F1A8.png",
+          "fileName": "IMG_7503.png",
+          "fileSizeBytes": 322648
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409517663419502703",
+      "type": "Default",
+      "timestamp": "2025-08-25T21:39:58.531+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "ちょっとわかりづらい。いつもの入りと違うんで、スルーしてください。0.000区間\n15ob ロジ足出てませんが。4時間前足の内側にはいったんでショートした感じです",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409591975413416148",
+      "type": "Default",
+      "timestamp": "2025-08-26T02:35:15.891+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "損切りからの挽回。どちらもプラα",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409592493011636337",
+      "type": "Default",
+      "timestamp": "2025-08-26T02:37:19.296+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1409592492348801096",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7527-F4A94.png",
+          "fileName": "IMG_7527.png",
+          "fileSizeBytes": 477036
+        },
+        {
+          "id": "1409592492721963139",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7529-7A3B2.png",
+          "fileName": "IMG_7529.png",
+          "fileSizeBytes": 525533
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f44d-27259.svg"
+          },
+          "count": 3,
+          "users": [
+            {
+              "id": "392885194127966224",
+              "name": "yanyan4811",
+              "discriminator": "0000",
+              "nickname": "yanyan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3ac202c628c27133ebf609166284aa51-B6211.png"
+            },
+            {
+              "id": "1213741422503792645",
+              "name": "tada0759",
+              "discriminator": "0000",
+              "nickname": "タダ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\4-4551A.png"
+            },
+            {
+              "id": "1319247754655961099",
+              "name": "nekoma_12248",
+              "discriminator": "0000",
+              "nickname": "ふー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\0-EB806.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409647767219081298",
+      "type": "Default",
+      "timestamp": "2025-08-26T06:16:57.694+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1409647766254260414",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7540-F1791.png",
+          "fileName": "IMG_7540.png",
+          "fileSizeBytes": 435435
+        },
+        {
+          "id": "1409647766774480896",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7541-79AC6.png",
+          "fileName": "IMG_7541.png",
+          "fileSizeBytes": 458703
+        },
+        {
+          "id": "1409647767386722314",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7539-83C33.png",
+          "fileName": "IMG_7539.png",
+          "fileSizeBytes": 331416
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "✍️",
+            "code": "writing_hand",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\270d-07DF9.svg"
+          },
+          "count": 2,
+          "users": [
+            {
+              "id": "1009423153648369714",
+              "name": "rouraito",
+              "discriminator": "0000",
+              "nickname": "Ryoto",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1-B2132.png"
+            },
+            {
+              "id": "1248415781734056078",
+              "name": "toshi016949",
+              "discriminator": "0000",
+              "nickname": "とし",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\6c5996770c985bcd6e5b68131ff2ba04-66129.png"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83E\uDEE1",
+            "code": "\uD83E\uDEE1",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1fae1-B19DE.svg"
+          },
+          "count": 2,
+          "users": [
+            {
+              "id": "1248415781734056078",
+              "name": "toshi016949",
+              "discriminator": "0000",
+              "nickname": "とし",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\6c5996770c985bcd6e5b68131ff2ba04-66129.png"
+            },
+            {
+              "id": "1274683303580139530",
+              "name": "galon_26839",
+              "discriminator": "0000",
+              "nickname": "がろん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\25b7e6336319bf467f20ed1f8b6f4fe0-83555.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409648231998029915",
+      "type": "Default",
+      "timestamp": "2025-08-26T06:18:48.506+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "説明はいらないですね。\nプラα。エントリーして寝ちゃってタイムアウト。極力皆さんが見れない時間も私が見てますから。ちゃんと損切りを守ればプラスになる！そう思います",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83E\uDEE1",
+            "code": "\uD83E\uDEE1",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1fae1-B19DE.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "1274683303580139530",
+              "name": "galon_26839",
+              "discriminator": "0000",
+              "nickname": "がろん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\25b7e6336319bf467f20ed1f8b6f4fe0-83555.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409691388966211707",
+      "type": "Default",
+      "timestamp": "2025-08-26T09:10:17.929+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1409691387401736242",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7557-84B4B.png",
+          "fileName": "IMG_7557.png",
+          "fileSizeBytes": 451612
+        },
+        {
+          "id": "1409691388001386557",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7558-C5867.png",
+          "fileName": "IMG_7558.png",
+          "fileSizeBytes": 449981
+        },
+        {
+          "id": "1409691388383199423",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7555-BADC3.png",
+          "fileName": "IMG_7555.png",
+          "fileSizeBytes": 340041
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "✍️",
+            "code": "writing_hand",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\270d-07DF9.svg"
+          },
+          "count": 2,
+          "users": [
+            {
+              "id": "1009423153648369714",
+              "name": "rouraito",
+              "discriminator": "0000",
+              "nickname": "Ryoto",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1-B2132.png"
+            },
+            {
+              "id": "1274683303580139530",
+              "name": "galon_26839",
+              "discriminator": "0000",
+              "nickname": "がろん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\25b7e6336319bf467f20ed1f8b6f4fe0-83555.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1409691501902172371",
+      "type": "Default",
+      "timestamp": "2025-08-26T09:10:44.855+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "日足OB\n15m 1hともプラα",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1410615600442769532",
+      "type": "Default",
+      "timestamp": "2025-08-28T22:22:47.116+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1410615599649919048",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7749-72E27.png",
+          "fileName": "IMG_7749.png",
+          "fileSizeBytes": 484746
+        },
+        {
+          "id": "1410615600144977920",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7747-6D47E.png",
+          "fileName": "IMG_7747.png",
+          "fileSizeBytes": 510021
+        },
+        {
+          "id": "1410615600581054494",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_7748-E02F9.png",
+          "fileName": "IMG_7748.png",
+          "fileSizeBytes": 333695
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1410615961941315584",
+      "type": "Default",
+      "timestamp": "2025-08-28T22:24:13.304+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "なぜかインジが表示できない。15分1時間4時間もだったかな？プラスα、１発目損切り。抜けが甘かったのかな？２発目で上がりました",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1413160868312514591",
+      "type": "Default",
+      "timestamp": "2025-09-04T22:56:46.265+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1413160867637493831",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_8219-B527C.png",
+          "fileName": "IMG_8219.png",
+          "fileSizeBytes": 512666
+        },
+        {
+          "id": "1413160868031762442",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_8222-E7FD9.png",
+          "fileName": "IMG_8222.png",
+          "fileSizeBytes": 536071
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1413161107404750899",
+      "type": "Default",
+      "timestamp": "2025-09-04T22:57:43.269+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "ASTTプラスα\n足が長いんで損切り幅がデカくなるんで半値戻し待ってたら、そのまま行かれました。。。",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE2D",
+            "code": "sob",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f62d-02603.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "931795687413260338",
+              "name": "2797_",
+              "discriminator": "0000",
+              "nickname": "わちゃ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\330833b2b3a53cb3b2ad1592bd30bc03-6B3C7.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1413167185102372914",
+      "type": "Default",
+      "timestamp": "2025-09-04T23:21:52.305+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1413167184414511324",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\ScreenRecording_09-04-2025_23-12-03_1-20A89.mov",
+          "fileName": "ScreenRecording_09-04-2025_23-12-03_1.mov",
+          "fileSizeBytes": 5092282
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1413194672293281915",
+      "type": "Default",
+      "timestamp": "2025-09-05T01:11:05.762+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "さっきの抜き損ねたポイント。15、1、4揃ってますよね本当はしっかり否定していきたかったんですが。携帯なんで、チャートが小さく、たまたま勝ち。私は基本10ピプでいんです",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1413194671307620456",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_8237-64A2F.png",
+          "fileName": "IMG_8237.png",
+          "fileSizeBytes": 479608
+        },
+        {
+          "id": "1413194671647232183",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_8238-E8DA5.png",
+          "fileName": "IMG_8238.png",
+          "fileSizeBytes": 554660
+        },
+        {
+          "id": "1413194671970062376",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_8236-8E0F0.png",
+          "fileName": "IMG_8236.png",
+          "fileSizeBytes": 468409
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "✨",
+            "code": "sparkles",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\2728-DCB65.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "931795687413260338",
+              "name": "2797_",
+              "discriminator": "0000",
+              "nickname": "わちゃ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\330833b2b3a53cb3b2ad1592bd30bc03-6B3C7.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1415932365951340575",
+      "type": "Default",
+      "timestamp": "2025-09-12T14:29:42.794+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1415932365498224741",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_8708-3D2F6.png",
+          "fileName": "IMG_8708.png",
+          "fileSizeBytes": 492463
+        },
+        {
+          "id": "1415932365783433297",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_8706-A336A.png",
+          "fileName": "IMG_8706.png",
+          "fileSizeBytes": 227113
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1415991255363747880",
+      "type": "Default",
+      "timestamp": "2025-09-12T18:23:43.124+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1415991253815791700",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_8723-E74D8.png",
+          "fileName": "IMG_8723.png",
+          "fileSizeBytes": 622636
+        },
+        {
+          "id": "1415991254260645919",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_8724-CE205.png",
+          "fileName": "IMG_8724.png",
+          "fileSizeBytes": 500606
+        },
+        {
+          "id": "1415991254646390847",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_8722-24F1A.png",
+          "fileName": "IMG_8722.png",
+          "fileSizeBytes": 560398
+        },
+        {
+          "id": "1415991255002910782",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_8719-D46FC.png",
+          "fileName": "IMG_8719.png",
+          "fileSizeBytes": 492549
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1415992068056027136",
+      "type": "Default",
+      "timestamp": "2025-09-12T18:26:56.885+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "ロジック足だけが揃わなかったですが。0.000,ASTT  4時間OBとN付付近まずスルーはなしてみてロウソク足が15.m1h 4hもインしたんで行きました",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE47‍♂️",
+            "code": "man_bowing",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f647-200d-2642-fe0f-319F3.svg"
+          },
+          "count": 3,
+          "users": [
+            {
+              "id": "931795687413260338",
+              "name": "2797_",
+              "discriminator": "0000",
+              "nickname": "わちゃ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\330833b2b3a53cb3b2ad1592bd30bc03-6B3C7.png"
+            },
+            {
+              "id": "1054059000859205712",
+              "name": "takumi7846",
+              "discriminator": "0000",
+              "nickname": "豊受麒麟",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\95bbf889e13a31333754898af6ab8981-4D8B9.png"
+            },
+            {
+              "id": "1249008266256711783",
+              "name": "piroyu3qisheng",
+              "discriminator": "0000",
+              "nickname": "ぴろゆ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\fa2b630c3333496c030a1646131fefbf-B05DE.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1417653936902639616",
+      "type": "Default",
+      "timestamp": "2025-09-17T08:30:37.294+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "ただのOBだけでロジックうまく行ってない方。最低条件がOB fvgを理解出来て自分で引ける方と言ったと思います。しょーもない方向性も見ないでやってる方いましたら fvgがある箇所とかでやってみて下さい。ま、理解されてる方々なんでわかりきった事でしょうが。 fvg埋めたくらいのOBでのプラαなのか。しょーもないOB単体でポチポチやってたら増えにくいですよ",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE47‍♂️",
+            "code": "man_bowing",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f647-200d-2642-fe0f-319F3.svg"
+          },
+          "count": 13,
+          "users": [
+            {
+              "id": "386127777658699777",
+              "name": "okdys",
+              "discriminator": "0000",
+              "nickname": "ムッタ OKADA",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\62bd532d1006665ea028b8b1c16d4f2b-D77E8.png"
+            },
+            {
+              "id": "392885194127966224",
+              "name": "yanyan4811",
+              "discriminator": "0000",
+              "nickname": "yanyan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3ac202c628c27133ebf609166284aa51-B6211.png"
+            },
+            {
+              "id": "876804384472829972",
+              "name": "muffinandpizza0609",
+              "discriminator": "0000",
+              "nickname": "まふぃんとピザ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\78d7d07bbbb1fe2aaaf754c6ae4174fa-9E5E1.png"
+            },
+            {
+              "id": "931795687413260338",
+              "name": "2797_",
+              "discriminator": "0000",
+              "nickname": "わちゃ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\330833b2b3a53cb3b2ad1592bd30bc03-6B3C7.png"
+            },
+            {
+              "id": "1054059000859205712",
+              "name": "takumi7846",
+              "discriminator": "0000",
+              "nickname": "豊受麒麟",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\95bbf889e13a31333754898af6ab8981-4D8B9.png"
+            },
+            {
+              "id": "1170727436615430208",
+              "name": "pess0115_07547",
+              "discriminator": "0000",
+              "nickname": "ペスヒロシ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\651b16bbaab754e8e906b3a41b89e0e4-CCBA0.png"
+            },
+            {
+              "id": "1242595216003825777",
+              "name": "toki3000_",
+              "discriminator": "0000",
+              "nickname": "toki3000",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3dc94e7f824ac8469e8a10af6eae822e-94168.png"
+            },
+            {
+              "id": "1249008266256711783",
+              "name": "piroyu3qisheng",
+              "discriminator": "0000",
+              "nickname": "ぴろゆ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\fa2b630c3333496c030a1646131fefbf-B05DE.png"
+            },
+            {
+              "id": "1249547592858341386",
+              "name": "kkzna",
+              "discriminator": "0000",
+              "nickname": "千",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1-B2132.png"
+            },
+            {
+              "id": "1274683303580139530",
+              "name": "galon_26839",
+              "discriminator": "0000",
+              "nickname": "がろん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\25b7e6336319bf467f20ed1f8b6f4fe0-83555.png"
+            },
+            {
+              "id": "1283394839274324010",
+              "name": "ochiyan0211",
+              "discriminator": "0000",
+              "nickname": "おーちゃん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\f7f2e9361e8a54ce6e72580ac7b967af-F1E39.png"
+            },
+            {
+              "id": "1293035024379285504",
+              "name": "tomtom127",
+              "discriminator": "0000",
+              "nickname": "Ri·͜· ♡",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\a9c46b3c51a480dbfc393dc7cbe91f7d-DF2FA.png"
+            },
+            {
+              "id": "1384753612596711445",
+              "name": "kimi924",
+              "discriminator": "0000",
+              "nickname": "きみ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1417704765101445201",
+      "type": "Default",
+      "timestamp": "2025-09-17T11:52:35.681+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1417704764204122243",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_8995-FAFF0.png",
+          "fileName": "IMG_8995.png",
+          "fileSizeBytes": 476186
+        },
+        {
+          "id": "1417704764711637092",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_8994-5DB1E.png",
+          "fileName": "IMG_8994.png",
+          "fileSizeBytes": 525742
+        },
+        {
+          "id": "1417704765176938636",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_8991-3E3DB.png",
+          "fileName": "IMG_8991.png",
+          "fileSizeBytes": 472163
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f44d-27259.svg"
+          },
+          "count": 4,
+          "users": [
+            {
+              "id": "392885194127966224",
+              "name": "yanyan4811",
+              "discriminator": "0000",
+              "nickname": "yanyan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3ac202c628c27133ebf609166284aa51-B6211.png"
+            },
+            {
+              "id": "931795687413260338",
+              "name": "2797_",
+              "discriminator": "0000",
+              "nickname": "わちゃ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\330833b2b3a53cb3b2ad1592bd30bc03-6B3C7.png"
+            },
+            {
+              "id": "1249008266256711783",
+              "name": "piroyu3qisheng",
+              "discriminator": "0000",
+              "nickname": "ぴろゆ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\fa2b630c3333496c030a1646131fefbf-B05DE.png"
+            },
+            {
+              "id": "1408038778995736589",
+              "name": "dk04766",
+              "discriminator": "0000",
+              "nickname": "DK",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5445ffd7ffb201a98393cbdf684ea4b1-A4ECE.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1417704840414363648",
+      "type": "Default",
+      "timestamp": "2025-09-17T11:52:53.637+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "うたた寝したら入り遅れ",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1424786473210609706",
+      "type": "Default",
+      "timestamp": "2025-10-07T00:52:46.466+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1424786472665616554",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_0109-1C09C.png",
+          "fileName": "IMG_0109.png",
+          "fileSizeBytes": 556763
+        },
+        {
+          "id": "1424786473000898600",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_0110-D844C.png",
+          "fileName": "IMG_0110.png",
+          "fileSizeBytes": 487265
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1f44d-27259.svg"
+          },
+          "count": 7,
+          "users": [
+            {
+              "id": "392885194127966224",
+              "name": "yanyan4811",
+              "discriminator": "0000",
+              "nickname": "yanyan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3ac202c628c27133ebf609166284aa51-B6211.png"
+            },
+            {
+              "id": "931795687413260338",
+              "name": "2797_",
+              "discriminator": "0000",
+              "nickname": "わちゃ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\330833b2b3a53cb3b2ad1592bd30bc03-6B3C7.png"
+            },
+            {
+              "id": "1009423153648369714",
+              "name": "rouraito",
+              "discriminator": "0000",
+              "nickname": "Ryoto",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1-B2132.png"
+            },
+            {
+              "id": "1139514746320736299",
+              "name": "hanahana_111",
+              "discriminator": "0000",
+              "nickname": "pap",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3-FB033.png"
+            },
+            {
+              "id": "1172107936278007882",
+              "name": "ning04318",
+              "discriminator": "0000",
+              "nickname": "ning",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\8569adcbd36c70a7578c017bf5604ea5-6F8A6.png"
+            },
+            {
+              "id": "1249008266256711783",
+              "name": "piroyu3qisheng",
+              "discriminator": "0000",
+              "nickname": "ぴろゆ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\fa2b630c3333496c030a1646131fefbf-B05DE.png"
+            },
+            {
+              "id": "1274683303580139530",
+              "name": "galon_26839",
+              "discriminator": "0000",
+              "nickname": "がろん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\25b7e6336319bf467f20ed1f8b6f4fe0-83555.png"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83E\uDEE1",
+            "code": "\uD83E\uDEE1",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1fae1-B19DE.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "1419625535897600071",
+              "name": "ayuniyan_25256",
+              "discriminator": "0000",
+              "nickname": "あゆにゃん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1424786761787113582",
+      "type": "Default",
+      "timestamp": "2025-10-07T00:53:55.268+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "X見てる方ならわかるかとおもいますが15ob fvgで見てる方はしっかり取れてるかと思います",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1425278705546039326",
+      "type": "Default",
+      "timestamp": "2025-10-08T09:28:43.8+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1425278704938123285",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_0220-30691.png",
+          "fileName": "IMG_0220.png",
+          "fileSizeBytes": 617471
+        },
+        {
+          "id": "1425278705290317904",
+          "url": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\IMG_0221-60030.png",
+          "fileName": "IMG_0221.png",
+          "fileSizeBytes": 475963
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1425279078751142090",
+      "type": "Default",
+      "timestamp": "2025-10-08T09:30:12.779+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "このようなどっちかに抜ける局面ってよく見るかと思いますが。自分がよく狙うのが抜けた箇所でのOB fvgの戻しのプラα狙うの好きですね",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "✍️",
+            "code": "writing_hand",
+            "isAnimated": false,
+            "imageUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\270d-07DF9.svg"
+          },
+          "count": 23,
+          "users": [
+            {
+              "id": "392885194127966224",
+              "name": "yanyan4811",
+              "discriminator": "0000",
+              "nickname": "yanyan",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3ac202c628c27133ebf609166284aa51-B6211.png"
+            },
+            {
+              "id": "561424202138386432",
+              "name": "roy880595",
+              "discriminator": "0000",
+              "nickname": "左ジャブ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\0707c4db6523375b9ce11df3961760f6-48541.png"
+            },
+            {
+              "id": "733237169082073138",
+              "name": "hiroko1818",
+              "discriminator": "0000",
+              "nickname": "さるぉ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+            },
+            {
+              "id": "800540017700896818",
+              "name": "sairi8473",
+              "discriminator": "0000",
+              "nickname": "sairi",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\4-4551A.png"
+            },
+            {
+              "id": "819567099126611968",
+              "name": "ss983470",
+              "discriminator": "0000",
+              "nickname": "Shibuya",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\0-EB806.png"
+            },
+            {
+              "id": "876804384472829972",
+              "name": "muffinandpizza0609",
+              "discriminator": "0000",
+              "nickname": "まふぃんとピザ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\78d7d07bbbb1fe2aaaf754c6ae4174fa-9E5E1.png"
+            },
+            {
+              "id": "878128886272114719",
+              "name": "s.h.e.17",
+              "discriminator": "0000",
+              "nickname": "シェリー",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\775cc2d10962823bfdbd5f767b9ddc36-A1DBA.png"
+            },
+            {
+              "id": "892410170259410994",
+              "name": "misa_q",
+              "discriminator": "0000",
+              "nickname": "misaQ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\0c2c1441d5ca002f76153eeb110b80e3-58783.png"
+            },
+            {
+              "id": "1009423153648369714",
+              "name": "rouraito",
+              "discriminator": "0000",
+              "nickname": "Ryoto",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\1-B2132.png"
+            },
+            {
+              "id": "1054059000859205712",
+              "name": "takumi7846",
+              "discriminator": "0000",
+              "nickname": "豊受麒麟",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\95bbf889e13a31333754898af6ab8981-4D8B9.png"
+            },
+            {
+              "id": "1129715047485161562",
+              "name": "ronron5310",
+              "discriminator": "0000",
+              "nickname": "ロンロン",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\ee89765207533fd0c0f0c87a6cf267ef-9A035.png"
+            },
+            {
+              "id": "1170727436615430208",
+              "name": "pess0115_07547",
+              "discriminator": "0000",
+              "nickname": "ペスヒロシ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\651b16bbaab754e8e906b3a41b89e0e4-CCBA0.png"
+            },
+            {
+              "id": "1194983602790867027",
+              "name": "tutomo",
+              "discriminator": "0000",
+              "nickname": "tutomo",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\3-FB033.png"
+            },
+            {
+              "id": "1204692510031487021",
+              "name": "988581",
+              "discriminator": "0000",
+              "nickname": "kk",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\79ee349b6511e2000af8a32fb8a6974e-FDFE7.png"
+            },
+            {
+              "id": "1205107434142695446",
+              "name": "takahiro0915_74946",
+              "discriminator": "0000",
+              "nickname": "ひひ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\6c5996770c985bcd6e5b68131ff2ba04-FBEE4.png"
+            },
+            {
+              "id": "1248415781734056078",
+              "name": "toshi016949",
+              "discriminator": "0000",
+              "nickname": "とし",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\6c5996770c985bcd6e5b68131ff2ba04-66129.png"
+            },
+            {
+              "id": "1249008266256711783",
+              "name": "piroyu3qisheng",
+              "discriminator": "0000",
+              "nickname": "ぴろゆ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\fa2b630c3333496c030a1646131fefbf-B05DE.png"
+            },
+            {
+              "id": "1274683303580139530",
+              "name": "galon_26839",
+              "discriminator": "0000",
+              "nickname": "がろん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\25b7e6336319bf467f20ed1f8b6f4fe0-83555.png"
+            },
+            {
+              "id": "1293035024379285504",
+              "name": "tomtom127",
+              "discriminator": "0000",
+              "nickname": "Ri·͜· ♡",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\a9c46b3c51a480dbfc393dc7cbe91f7d-DF2FA.png"
+            },
+            {
+              "id": "1344279864672391218",
+              "name": "arugurei0566",
+              "discriminator": "0000",
+              "nickname": "アールグレイ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\4-4551A.png"
+            },
+            {
+              "id": "1408038778995736589",
+              "name": "dk04766",
+              "discriminator": "0000",
+              "nickname": "DK",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5445ffd7ffb201a98393cbdf684ea4b1-A4ECE.png"
+            },
+            {
+              "id": "1419625535897600071",
+              "name": "ayuniyan_25256",
+              "discriminator": "0000",
+              "nickname": "あゆにゃん",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\5-E9BDB.png"
+            },
+            {
+              "id": "1427946826862034995",
+              "name": "kotsukotsu358_53661",
+              "discriminator": "0000",
+              "nickname": "コツコツ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - zero-magic基本マニュアル３つの意識 [1383010560911872052].json_Files\\7e93ed154af7f38ad833d2adb6beb258-8F928.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 48
+}

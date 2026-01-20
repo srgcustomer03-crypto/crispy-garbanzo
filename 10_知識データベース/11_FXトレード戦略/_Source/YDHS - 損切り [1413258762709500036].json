@@ -1,0 +1,186 @@
+{
+  "guild": {
+    "id": "1383010560379191357",
+    "name": "YDHS",
+    "iconUrl": "YDHS - 損切り [1413258762709500036].json_Files\\bad6ad74efef42b22c6a9e596258de5d-A02A0.png"
+  },
+  "channel": {
+    "id": "1413258762709500036",
+    "type": "GuildTextChat",
+    "categoryId": null,
+    "category": null,
+    "name": "損切り",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-01-19T01:58:55.2038133+09:00",
+  "messages": [
+    {
+      "id": "1413259338113613844",
+      "type": "Default",
+      "timestamp": "2025-09-05T05:28:03.295+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - 損切り [1413258762709500036].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1413259337782132736",
+          "url": "YDHS - 損切り [1413258762709500036].json_Files\\IMG_8245-D6E48.png",
+          "fileName": "IMG_8245.png",
+          "fileSizeBytes": 322775
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1413260640465981562",
+      "type": "Default",
+      "timestamp": "2025-09-05T05:33:13.8+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "最近感じることが。足裏損切りルールの足裏前足を包んでない場合前足足裏が良いのか。ただ負けた時はその分負けが膨らむ\u3000微妙な足裏で捲られて次足でエントリー方向に行く時も多いい。慣れた人はこのルール通りやる必要はないんですが。例えば47分➕アルからエントリーで55分損切りの場合。次は1時間の切り替わり時は、私は高値があまり変わらない時は1時間の➕アル来ないか待つ時があるからです。ま、しょーもない箇所では待ちませんが。",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - 損切り [1413258762709500036].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1413260683008807115",
+      "type": "Default",
+      "timestamp": "2025-09-05T05:33:23.943+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - 損切り [1413258762709500036].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [
+        {
+          "id": "1413260683109466235",
+          "url": "YDHS - 損切り [1413258762709500036].json_Files\\IMG_8243-A78BF.png",
+          "fileName": "IMG_8243.png",
+          "fileSizeBytes": 331328
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1413260750646153239",
+      "type": "Default",
+      "timestamp": "2025-09-05T05:33:40.069+09:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "こっちは足裏で良いかと思います",
+      "author": {
+        "id": "1225221730621067326",
+        "name": "hide03913",
+        "discriminator": "0000",
+        "nickname": "AIGH",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "YDHS - 損切り [1413258762709500036].json_Files\\5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83E\uDEE1",
+            "code": "\uD83E\uDEE1",
+            "isAnimated": false,
+            "imageUrl": "YDHS - 損切り [1413258762709500036].json_Files\\1fae1-B19DE.svg"
+          },
+          "count": 4,
+          "users": [
+            {
+              "id": "876804384472829972",
+              "name": "muffinandpizza0609",
+              "discriminator": "0000",
+              "nickname": "まふぃんとピザ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - 損切り [1413258762709500036].json_Files\\78d7d07bbbb1fe2aaaf754c6ae4174fa-9E5E1.png"
+            },
+            {
+              "id": "1009423153648369714",
+              "name": "rouraito",
+              "discriminator": "0000",
+              "nickname": "Ryoto",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - 損切り [1413258762709500036].json_Files\\1-B2132.png"
+            },
+            {
+              "id": "1242595216003825777",
+              "name": "toki3000_",
+              "discriminator": "0000",
+              "nickname": "toki3000",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - 損切り [1413258762709500036].json_Files\\3dc94e7f824ac8469e8a10af6eae822e-94168.png"
+            },
+            {
+              "id": "1249008266256711783",
+              "name": "piroyu3qisheng",
+              "discriminator": "0000",
+              "nickname": "ぴろゆ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "YDHS - 損切り [1413258762709500036].json_Files\\fa2b630c3333496c030a1646131fefbf-B05DE.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 4
+}

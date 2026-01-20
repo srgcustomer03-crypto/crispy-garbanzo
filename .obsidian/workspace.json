@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "7b2929d81be20b94",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba651a9fc305dba9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78aa0edc10a1d26f",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "無題のファイル.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "無題のファイル"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "418bb22ccbc38422",
+    "type": "split",
+    "children": [
+      {
+        "id": "26171dc033fc7f3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17e7bdb20d4ece07",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "a9cf40a64b7636e9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:CRT",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "4f470a8debacd3ea",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fbf9903e0e1c53b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "51d01670d6912bd9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a486183b3c77b6d1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Welcomeへのバックリンク"
+            }
+          },
+          {
+            "id": "59a019cb5045436f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Welcomeからのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "df670f505ee3ca4f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "fe0dd9373bcb57e3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "bb8e3d175a57ec18",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Welcomeのアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "78aa0edc10a1d26f",
+  "lastOpenFiles": [
+    "2026-01-20.md",
+    "無題のファイル.base",
+    "無題のファイル 1.canvas",
+    "10_知識データベース/11_FXトレード戦略/00_基本手法_Zero_Magic.md",
+    "10_知識データベース/11_FXトレード戦略/2026-01-19_師匠の手法分析レポート.md",
+    "99_用語集_Liquidity_Sweep.md",
+    "11_FXトレード戦略マップ.md",
+    "10_知識データベース/11_FX師匠ノウハウ/Multi_Strategies.md",
+    "無題のファイル.canvas",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 独り言 - 独り言 [1451117968262955062].json_Files/ScreenRecording_12-18-2025_21-57-13_1-00C6D.mov",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 独り言 - 独り言 [1451117968262955062].json_Files/ScreenRecording_01-07-2026_09-54-47_1-73439.mov",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 独り言 - 独り言 [1451117968262955062].json_Files/IMG_4602-D25C3.png",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 独り言 - 独り言 [1451117968262955062].json_Files/IMG_4601-04675.png",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 独り言 - 独り言 [1451117968262955062].json_Files/IMG_4599-99504.png",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 独り言 - 独り言 [1451117968262955062].json_Files/IMG_4594-F45C8.png",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 独り言 - 独り言 [1451117968262955062].json_Files/IMG_4593-FB176.png",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 独り言 - 独り言 [1451117968262955062].json_Files/IMG_4585-62D63.png",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 独り言 - 独り言 [1451117968262955062].json_Files/IMG_4584-DA935.png",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 独り言 - 独り言 [1451117968262955062].json_Files/IMG_4583-DECB4.png",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 独り言 - 独り言 [1451117968262955062].json_Files/IMG_4102-A5A03.png",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 独り言 - 独り言 [1451117968262955062].json_Files/IMG_4101-17A36.png",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 独り言 - 独り言 [1451117968262955062].json_Files",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 朝やる事 - 1日の初めにかならず [1392322895455453294].json_Files/ScreenRecording_11-14-2025_22-15-15_1-CA0D4.mov",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 朝やる事 - 1日の初めにかならず [1392322895455453294].json_Files/ScreenRecording_11-17-2025_12-49-34_1-8F8B0.mov",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 朝やる事 - 1日の初めにかならず [1392322895455453294].json_Files",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 最後に理解が出来たら - 基本が出来たら [1392750881866256404].json_Files",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - 損切り [1413258762709500036].json_Files",
+    "10_知識データベース/11_FXトレード戦略/_Source/YDHS - ロジック➕フィボナッチ - フィボナッチ3段目orディスカウントzoneプレミアムzone [1384824876845760593].json_Files",
+    "log/Welcome.md",
+    "Welcome.md"
+  ]
+}
