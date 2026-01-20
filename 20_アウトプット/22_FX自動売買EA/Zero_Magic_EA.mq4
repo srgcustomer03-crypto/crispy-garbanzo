@@ -111,8 +111,18 @@ void OnTick()
    debugMsg += "Total OBs: " + IntegerToString(ArraySize(activeOBs)) + "\n";
    
    // Signal
+   // FIX: Strict Engulfing (Body + Range check) to avoid Inside Bars
    bool isBullEngulf = (Close[i] > Open[i] && Close[i+1] < Open[i+1] && Close[i] >= Open[i+1] && Open[i] <= Close[i+1]);
    bool isBearEngulf = (Close[i] < Open[i] && Close[i+1] > Open[i+1] && Close[i] <= Open[i+1] && Open[i] >= Close[i+1]);
+   
+   // Apply High/Low Filter (Current range must also cover previous range significantly, or at least not be an inside bar)
+   // Optional: Let's enforce that High/Low also engulfs or matches relative to direction
+   if(isBullEngulf) {
+       if(High[i] < High[i+1] || Low[i] > Low[i+1]) isBullEngulf = false; // Filter Inside Bars
+   }
+   if(isBearEngulf) {
+       if(High[i] < High[i+1] || Low[i] > Low[i+1]) isBearEngulf = false; // Filter Inside Bars
+   }
    
    Comment(debugMsg);
 
@@ -124,6 +134,7 @@ void OnTick()
 
    if(isBullEngulf && zoneBull) {
        if(OrdersTotal() == 0) { 
+           Print(">>> BUY ENTRY: Zone=", tfList, " Price=", Close[1], " PrevClose=", Close[2]);
            double sl = Ask - StopLossPips * pipVal;
            double tp = Ask + TakeProfitPips * pipVal;
            OrderSend(Symbol(), OP_BUY, Lots, Ask, 3, sl, tp, "Zero Magic MTF Buy", MagicNumber, 0, clrBlue);
@@ -131,6 +142,7 @@ void OnTick()
    }
    if(isBearEngulf && !zoneBull) {
        if(OrdersTotal() == 0) {
+           Print(">>> SELL ENTRY: Zone=", tfList, " Price=", Close[1], " PrevClose=", Close[2]);
            double sl = Bid + StopLossPips * pipVal;
            double tp = Bid - TakeProfitPips * pipVal;
            OrderSend(Symbol(), OP_SELL, Lots, Bid, 3, sl, tp, "Zero Magic MTF Sell", MagicNumber, 0, clrRed);
