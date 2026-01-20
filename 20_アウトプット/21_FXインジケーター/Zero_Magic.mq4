@@ -5,7 +5,7 @@
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2026, Antigravity"
 #property link      "https://www.mql5.com"
-#property version   "1.05"
+#property version   "1.06"
 #property strict
 #property indicator_chart_window
 #property indicator_buffers 2
@@ -27,6 +27,9 @@ double         BearBuffer[];
 //+------------------------------------------------------------------+
 int OnInit()
   {
+   // Clean up any existing ZM lines from previous versions/instances
+   ObjectsDeleteAll(0, "ZM_Line_");
+   
    SetIndexBuffer(0,BullBuffer);
    SetIndexStyle(0,DRAW_ARROW);
    SetIndexArrow(0,233); // Up Arrow
@@ -36,6 +39,15 @@ int OnInit()
    SetIndexArrow(1,234); // Down Arrow
    
    return(INIT_SUCCEEDED);
+  }
+
+//+------------------------------------------------------------------+
+//| Custom indicator deinitialization function                       |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+  {
+   // Remove all objects created by this indicator
+   ObjectsDeleteAll(0, "ZM_Line_");
   }
 
 //+------------------------------------------------------------------+
@@ -145,10 +157,16 @@ int OnCalculate(const int rates_total,
 void DrawGridLines(double step, color col) {
     double bid = SymbolInfoDouble(Symbol(), SYMBOL_BID);
     
-    // Draw grid around current price
+    // Clean up far away lines to prevent clutter (Simple approach)
+    // Actually, deleting all and redrawing is heavy but safe.
+    // Better: Delete lines that are NOT in current range?
+    // Let's just rely on OnDeinit for full cleanup, and here we just draw needed ones.
+    // If user scrolls far, old lines remain.
+    // Let's iterate user specified range or just around price.
+    
     double base = MathFloor(bid / step) * step;
     
-    // Range: +/- 20 lines
+    // Draw current range
     for(int k = -20; k <= 20; k++) {
         double level = base + (k * step);
         level = NormalizeDouble(level, Digits);
@@ -160,7 +178,6 @@ void DrawGridLines(double step, color col) {
             ObjectSetInteger(0, name, OBJPROP_COLOR, col);
             ObjectSetInteger(0, name, OBJPROP_STYLE, STYLE_DOT);
             ObjectSetInteger(0, name, OBJPROP_SELECTABLE, false);
-            // ObjectSetInteger(0, name, OBJPROP_HIDDEN, true); // Keep visible
         }
     }
 }
