@@ -1,5 +1,7 @@
 # 動画解析報告：最適な復習法と記憶定着（Active Recall）
 
+**親ノート:** [[15_学習・自己啓発マップ]]
+
 ## 1. 基本情報
 - **動画タイトル:** The Best Way to Review for Exams (Level 6: REVIEW)
 - **チャンネル名:** Koi (旧 Cajun Koi Academy)
