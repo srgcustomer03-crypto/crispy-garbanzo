@@ -24,10 +24,14 @@
             "id": "6399a3b20ef96e09",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "グラフビュー"
+              "type": "markdown",
+              "state": {
+                "file": "99_用語集_Liquidity_Sweep.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "99_用語集_Liquidity_Sweep"
             }
           }
         ],
@@ -216,6 +220,7 @@
   },
   "active": "6399a3b20ef96e09",
   "lastOpenFiles": [
+    "無題のファイル 1.canvas",
     "10_知識データベース/11_FXトレード戦略/08_独り言と練習.md",
     "10_知識データベース/14_SNS/いらすとや_2chショート動画作成法.md",
     "10_知識データベース/14_SNS/カピバラAI動画_Tweak戦略.md",
@@ -238,7 +243,6 @@
     "無題のファイル.base",
     "2026-01-20.md",
     "無題のファイル.canvas",
-    "無題のファイル 1.canvas",
     "無題のファイル 1.base",
     "無題のファイル 2.canvas",
     "GITHUB_SETUP_INSTRUCTIONS.md",
