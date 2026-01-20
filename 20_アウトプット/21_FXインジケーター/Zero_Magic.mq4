@@ -5,7 +5,7 @@
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2026, Antigravity"
 #property link      "https://www.mql5.com"
-#property version   "1.02"
+#property version   "1.03"
 #property strict
 #property indicator_chart_window
 #property indicator_buffers 2
@@ -66,10 +66,11 @@ int OnCalculate(const int rates_total,
        string sym = Symbol();
        
        if(StringFind(sym, "XAU") >= 0 || StringFind(sym, "GOLD") >= 0) {
-           // GOLD Logic: Usually 2 digits (2035.00) or 3 digits.
-           // Standard Zero Line for Gold is often every $1.00 or $5.00
-           // Setting to 1.0 (Every $1) as base "Zero" (.00)
-           step = 1.0; 
+           // GOLD Logic
+           // User Request: "100 pips interval"
+           // Interpretation: 1 pip = $0.10, so 100 pips = $10.00
+           // Setting default step to 10.0 for Gold.
+           step = 10.0; 
        } else if(Digits == 3 || Digits == 5) {
            // JPY Pairs (145.000) or Standard Pairs (1.12345)
            // If Price > 50 (JPY), step = 1.0 (145.000)
@@ -124,6 +125,9 @@ int OnCalculate(const int rates_total,
           if(prevBull && currBear) {
               if(close[i] <= open[i+1] && open[i] >= close[i+1]) {
                   BearBuffer[i] = high[i] + 10 * Point;
+                  if(i == 0 && UseAlerts && Time[0] != Time[1]) {
+                     // Alert
+                  }
               }
           }
       }
