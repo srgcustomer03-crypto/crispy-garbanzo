@@ -1,3 +1,6 @@
+---
+tags: [FX, 師匠の教え, Advanced]
+---
 # Multi_Strategies.md
 
 **親ノート:** [[11_FX師匠ノウハウマップ]]

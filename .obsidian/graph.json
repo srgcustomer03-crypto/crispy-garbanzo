@@ -6,7 +6,14 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {"query": "tag:#FX", "color": "#d91d1d"},
+    {"query": "tag:#SNS", "color": "#1da1f2"},
+    {"query": "tag:#経営", "color": "#18a339"},
+    {"query": "tag:#介護", "color": "#9b59b6"},
+    {"query": "tag:#学習", "color": "#f39c12"},
+    {"query": "tag:#師匠の教え", "color": "#e74c3c"}
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
