@@ -5,7 +5,7 @@
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2026, Antigravity"
 #property link      "https://www.mql5.com"
-#property version   "1.03"
+#property version   "1.05"
 #property strict
 #property indicator_chart_window
 #property indicator_buffers 2
@@ -67,9 +67,9 @@ int OnCalculate(const int rates_total,
        
        if(StringFind(sym, "XAU") >= 0 || StringFind(sym, "GOLD") >= 0) {
            // GOLD Logic
-           // User Request: "100 pips interval"
-           // Interpretation: 1 pip = $0.10, so 100 pips = $10.00
-           // Setting default step to 10.0 for Gold.
+           // User Feedback: Link suggests 100 pips = $10.0 (1 pip = $0.10)
+           // User Example: 2300.0, 2290.0, 2280.0
+           // Validated: Step should be 10.0
            step = 10.0; 
        } else if(Digits == 3 || Digits == 5) {
            // JPY Pairs (145.000) or Standard Pairs (1.12345)
