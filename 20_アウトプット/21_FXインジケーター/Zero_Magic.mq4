@@ -5,7 +5,7 @@
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2026, Antigravity"
 #property link      "https://www.mql5.com"
-#property version   "1.00"
+#property version   "1.01"
 #property strict
 #property indicator_chart_window
 #property indicator_buffers 2
@@ -26,7 +26,6 @@ double         BearBuffer[];
 //+------------------------------------------------------------------+
 int OnInit()
   {
-//--- indicator buffers mapping
    SetIndexBuffer(0,BullBuffer);
    SetIndexStyle(0,DRAW_ARROW);
    SetIndexArrow(0,233); // Up Arrow
@@ -37,6 +36,7 @@ int OnInit()
    
    return(INIT_SUCCEEDED);
   }
+
 //+------------------------------------------------------------------+
 //| Custom indicator iteration function                              |
 //+------------------------------------------------------------------+
@@ -54,46 +54,37 @@ int OnCalculate(const int rates_total,
    int limit = rates_total - prev_calculated;
    if(prev_calculated > 0) limit++;
    if(limit > HistoryBars) limit = HistoryBars;
-   
-   // --- Main Loop
+
+   // 1. Determine Step Size for "0.000" (Round Numbers)
+   // Standard FX (EURUSD, GBPUSD) -> 0.01 (100 pips) implies 1.1200, 1.1300
+   // JPY Pairs (USDJPY) -> 1.0 (100 pips) implies 145.00, 146.00
+   double step = 0.01;
+   if(Digits == 3 || Digits == 2) step = 1.0; 
+
+   // --- Signal Loop
    for(int i = limit; i >= 1; i--)
      {
-      // 1. Identify Nearest 0.000 Level
       double price = close[i];
-      double nearest000 = MathRound(price * 1000) / 1000.0;
+      // Find nearest Round Number
+      double nearest000 = MathRound(price / step) * step;
       
       // Calculate distance in pips
       double distance = MathAbs(price - nearest000) / Point;
-      if(Digits == 3 || Digits == 5) distance /= 10; // Adjust for JPY pairs (digits=3) or 5-digit brokers
+      // Adjust pips for 3/5 digit brokers
+      if(Digits == 3 || Digits == 5) distance /= 10; 
       
-      // 2. Draw Line (Object) - Optimized to not redraw every tick
-      string lineName = "ZM_Line_" + IntegerToString(Time[i]);
-      if(ObjectFind(0, lineName) < 0) {
-          // Only draw if we haven't already nearby
-          // Simple logic: Draw lines at fixed intervals? 
-          // For now, let's just check if we are 'near' a line and maintain lines there?
-          // Actually, drawing ALL 0.000 lines is better done by loop.
-          // Let's stick to SIGNAL logic here first.
-      }
-      
-      // We will draw lines dynamically in a separate loop or just 'visualize' the concept by signals first.
-      // To properly draw horizontal lines at x.000, we should use objects.
-      
-      // 3. Check for Engulfing Pattern
       bool isNear = (distance <= DetectionRangePips);
       
       if(isNear) {
           // Bullish Engulfing
-          // Prev: Bearish, Curr: Bullish
-          // Body(Curr) covers Body(Prev)
           bool prevBear = close[i+1] < open[i+1];
           bool currBull = close[i] > open[i];
           
           if(prevBear && currBull) {
               if(close[i] >= open[i+1] && open[i] <= close[i+1]) {
                   BullBuffer[i] = low[i] - 10 * Point;
-                  if(i == 1 && UseAlerts && Time[0] != Time[1]) { // Alert on close of previous bar
-                      // Simple alert logic for now, refining later
+                  if(i == 0 && UseAlerts && Time[0] != Time[1]) {
+                     // Realtime alert logic here
                   }
               }
           }
@@ -110,41 +101,40 @@ int OnCalculate(const int rates_total,
       }
      }
      
-   // --- Draw Horizontal Lines Management (Simple Version)
-   // Delete old lines to prevent clutter or manage smarter?
-   // For V1, let's keep it simple: Show arrows. 
-   // Users often have grid indicators. But 'Zero Magic' needs lines.
-   // Let's add a few lines near current price.
-   
-   double bid = SymbolInfoDouble(Symbol(), SYMBOL_BID);
-   double centerLine = MathRound(bid * 1000) / 1000.0;
-   
-   // Draw current, +1, -1 lines (3 lines total)
-   DrawLine("ZM_Line_Center", centerLine, LineColor);
-   DrawLine("ZM_Line_Upper", centerLine + 0.001, LineColor); // +10 pips? No, x.000 is every 100 pips usually or 10 pips?
-   // Request said "0.000". Usually this means 1.12000, 1.13000 (1000 pips or 100 pips?)
-   // "3304.000" in log implies full integer levels or significant levels.
-   // Standard FX "000" usually means 100 pips (Big Figure).
-   // But 0.000 format suggests 3 decimal places.
-   // Let's assume 100 pips (0.010 interval) for standard pairs, or 1.000 for JPY?
-   // "3304.000" implies a raw value.
-   // Let's try to infer from "Round Numbers".
-   // Convention: "00" or "000" usually means the "Big Figures".
-   // I will use 0.01 (100 pips) steps for now, as that's standard support/resistance.
-   
-   DrawLine("ZM_Line_Up1", centerLine + 0.010, LineColor);
-   DrawLine("ZM_Line_Dn1", centerLine - 0.010, LineColor);
+   // --- Draw Static Horizontal Lines
+   DrawGridLines(step, LineColor);
    
    return(rates_total);
   }
-  
-void DrawLine(string name, double price, color col) {
-    if(ObjectFind(0, name) < 0) {
-        ObjectCreate(0, name, OBJ_HLINE, 0, 0, price);
-        ObjectSetInteger(0, name, OBJPROP_COLOR, col);
-        ObjectSetInteger(0, name, OBJPROP_STYLE, STYLE_DOT);
-    } else {
-        ObjectMove(0, name, 0, 0, price);
+
+//+------------------------------------------------------------------+
+//| Draw Grid Lines Function                                         |
+//+------------------------------------------------------------------+
+void DrawGridLines(double step, color col) {
+    double bid = SymbolInfoDouble(Symbol(), SYMBOL_BID);
+    
+    // Find a base level near price
+    double base = MathFloor(bid / step) * step;
+    
+    // Draw 10 lines above and 10 lines below
+    for(int k = -10; k <= 10; k++) {
+        double level = base + (k * step);
+        // Normalize double to avoid weird float names
+        level = NormalizeDouble(level, Digits);
+        
+        string name = "ZM_Line_" + DoubleToString(level, Digits);
+        
+        if(ObjectFind(0, name) < 0) {
+            ObjectCreate(0, name, OBJ_HLINE, 0, 0, level);
+            ObjectSetInteger(0, name, OBJPROP_COLOR, col);
+            ObjectSetInteger(0, name, OBJPROP_STYLE, STYLE_DOT);
+            ObjectSetInteger(0, name, OBJPROP_SELECTABLE, false);
+            ObjectSetInteger(0, name, OBJPROP_HIDDEN, true); // Hide from object list if preferred
+        }
     }
+    
+    // Optional: Cleanup output objects that are too far? 
+    // For now, allow accumulation or user can clear objects. 
+    // To be cleaner, we could delete objects not in range, but that's expensive.
 }
 //+------------------------------------------------------------------+
