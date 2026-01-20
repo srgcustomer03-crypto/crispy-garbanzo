@@ -24,14 +24,10 @@
             "id": "6399a3b20ef96e09",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_知識データベース/14_SNS/AI活用_2ch風ショート台本作成術.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AI活用_2ch風ショート台本作成術"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "グラフビュー"
             }
           }
         ],
@@ -67,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:CRT",
+                "query": "tag:FX",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +84,8 @@
               "title": "ブックマーク"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -220,22 +217,23 @@
   },
   "active": "6399a3b20ef96e09",
   "lastOpenFiles": [
+    "10_知識データベース/11_FXトレード戦略/02_手法_STT戦略.md",
+    "10_知識データベース/14_SNS/PremierePro_ショート動画編集ワークフロー.md",
+    "10_知識データベース/14_SNS/AI活用_2ch風ショート台本作成術.md",
+    "10_知識データベース/11_FXトレード戦略/07_基本とマインドセット.md",
+    "10_知識データベース/11_FXトレード戦略/08_独り言と練習.md",
+    "10_知識データベース/11_FXトレード戦略/11_FXトレード戦略マップ.md",
     "10_知識データベース/14_SNS/14_SNSマップ.md",
     "10_知識データベース/11_FX師匠ノウハウ/11_FX師匠ノウハウマップ.md",
     "11_FXトレード戦略マップ.md",
     "10_知識データベース/11_FXトレード戦略/05_エントリー根拠_エビデンス.md",
-    "10_知識データベース/11_FXトレード戦略/07_基本とマインドセット.md",
     "10_知識データベース/11_FXトレード戦略/2026-01-19_師匠の手法分析レポート.md",
-    "10_知識データベース/11_FXトレード戦略/11_FXトレード戦略マップ.md",
-    "10_知識データベース/14_SNS/AI活用_2ch風ショート台本作成術.md",
     "99_用語集_Liquidity_Sweep.md",
     "10_知識データベース/15_学習・自己啓発/15_学習・自己啓発マップ.md",
     "無題のファイル 1.canvas",
-    "10_知識データベース/11_FXトレード戦略/08_独り言と練習.md",
     "10_知識データベース/14_SNS/いらすとや_2chショート動画作成法.md",
     "10_知識データベース/14_SNS/カピバラAI動画_Tweak戦略.md",
     "10_知識データベース/15_学習・自己啓発/Study_Method_Review_Matrix.md",
-    "10_知識データベース/14_SNS/PremierePro_ショート動画編集ワークフロー.md",
     "10_知識データベース/14_SNS/YouTube再生数10万回_3ヶ月ロードマップ.md",
     "10_知識データベース/14_SNS/Video_Make_2ch_Shorts.md",
     "10_知識データベース/14_SNS/Vrew_Gemini_ショート動画作成ガイド.md",
@@ -250,7 +248,6 @@
     "10_知識データベース/14_SNS",
     "00_受信箱/Vrew_Gemini_Shorts_Guide.md",
     "無題のファイル.base",
-    "2026-01-20.md",
     "無題のファイル.canvas",
     "無題のファイル 1.base",
     "無題のファイル 2.canvas",
