@@ -29,9 +29,21 @@
               "icon": "lucide-git-fork",
               "title": "グラフビュー"
             }
+          },
+          {
+            "id": "b956b60b687ae6bd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,7 +227,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6399a3b20ef96e09",
+  "active": "b956b60b687ae6bd",
   "lastOpenFiles": [
     "20_アウトプット/22_FX自動売買EA/Zero_Magic_EA.mq4",
     "20_アウトプット/22_FX自動売買EA",

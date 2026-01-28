@@ -15,7 +15,7 @@ input double TakeProfitPips= 30.0;
 input int    MagicNumber   = 202602;
 input double DetectionRangePips = 5.0;  // Pips from Line
 input double ManualGridStep     = 10.0; 
-
+input bool   UseCRT_Logic       = true; // Use Candle Range Theory (Sweep) Logic
 // Internal Logic Variables
 struct OrderBlock {
     double top;
@@ -111,41 +111,139 @@ void OnTick()
    debugMsg += "Total OBs: " + IntegerToString(ArraySize(activeOBs)) + "\n";
    
    // Signal
-   // FIX: Strict Engulfing (Body + Range check) to avoid Inside Bars
-   bool isBullEngulf = (Close[i] > Open[i] && Close[i+1] < Open[i+1] && Close[i] >= Open[i+1] && Open[i] <= Close[i+1]);
-   bool isBearEngulf = (Close[i] < Open[i] && Close[i+1] > Open[i+1] && Close[i] <= Open[i+1] && Open[i] >= Close[i+1]);
+   // Raw detection (Body only)
+   bool rawBull = (Close[i] > Open[i] && Close[i+1] < Open[i+1] && Close[i] >= Open[i+1] && Open[i] <= Close[i+1]);
+   bool rawBear = (Close[i] < Open[i] && Close[i+1] > Open[i+1] && Close[i] <= Open[i+1] && Open[i] >= Close[i+1]);
+
+   bool isBullEngulf = rawBull;
+   bool isBearEngulf = rawBear;
    
-   // Apply High/Low Filter (Current range must also cover previous range significantly, or at least not be an inside bar)
-   // Optional: Let's enforce that High/Low also engulfs or matches relative to direction
+   // --- CRT LOGIC INTEGRATION (Enhanced) ---
+   bool sweepCondition = true;
+   bool allowInsideHigh = false; // Flag to relax Strict Filter if Sweep was on Prev candle
+   
+   if(UseCRT_Logic) {
+       // A. Current Candle Sweep (Key Reversal)
+       bool currSweepBull = (Low[i] < Low[i+1]);
+       bool currSweepBear = (High[i] > High[i+1]);
+       
+       // B. Previous Candle Sweep (Trap then Reversal)
+       bool prevSweepBull = (Low[i+1] < Low[i+2]);
+       bool prevSweepBear = (High[i+1] > High[i+2]);
+       
+       // Logic: Must have swept recently (A or B)
+       if(rawBull) {
+           if(!currSweepBull && !prevSweepBull) sweepCondition = false;
+           if(prevSweepBull) allowInsideHigh = true; // If Prev swept, Current Low[i] can be > Low[i+1]
+       }
+       if(rawBear) {
+           if(!currSweepBear && !prevSweepBear) sweepCondition = false;
+           if(prevSweepBear) allowInsideHigh = true;
+       }
+   }
+   
+   if(!sweepCondition) {
+       isBullEngulf = false;
+       isBearEngulf = false;
+   }
+   
+   // Apply High/Low Filter (Strict) 
+   // Relaxed if 'allowInsideHigh' is true (Previous Sweep context)
    if(isBullEngulf) {
-       if(High[i] < High[i+1] || Low[i] > Low[i+1]) isBullEngulf = false; // Filter Inside Bars
+       if(!allowInsideHigh) {
+           if(High[i] < High[i+1] || Low[i] > Low[i+1]) isBullEngulf = false; 
+       } else {
+           // If PrevSwept, we only care about Body Engulfing (already checked in rawBull).
+           // But maybe ensure it's not a tiny inside bar? 
+           // Standard Engulfing rules (Open/Close) are usually sufficient for CRT.
+       }
    }
    if(isBearEngulf) {
-       if(High[i] < High[i+1] || Low[i] > Low[i+1]) isBearEngulf = false; // Filter Inside Bars
+       if(!allowInsideHigh) {
+            if(High[i] < High[i+1] || Low[i] > Low[i+1]) isBearEngulf = false; 
+       }
    }
+
    
    Comment(debugMsg);
+
+   // --- DEBUG LOGGING FOR SKIPPED ENTRIES ---
+   if(rawBull || rawBear) {
+       string reason = "";
+       string pat = rawBull ? "Bull" : "Bear";
+       
+       if(UseCRT_Logic) {
+           if(rawBull && !sweepCondition) reason += "[CRT Fail: No Sweep found] ";
+           if(rawBear && !sweepCondition) reason += "[CRT Fail: No Sweep found] ";
+       }
+       
+       if(rawBull && !isBullEngulf && reason == "") reason += "[Strict Filter/Weak] ";
+       if(rawBear && !isBearEngulf && reason == "") reason += "[Strict Filter/Weak] ";
+       
+       if(!nearLine) reason += "[Line Gap: " + DoubleToString(gapPips, 1) + " > " + DoubleToString(DetectionRangePips, 1) + "] ";
+       
+       if(!inZone) {
+           reason += "[Not in Zone] ";
+       } else {
+           if(rawBull && !zoneBull) reason += "[Zone Mismatch: In Bear Zone] ";
+           if(rawBear && zoneBull)  reason += "[Zone Mismatch: In Bull Zone] ";
+       }
+       
+       if(reason != "") {
+            // Only print if strict filter passed OR if user wants to see everything. 
+            // Let's print if it was a valid strict engulf but failed other conditions
+            if(isBullEngulf || isBearEngulf) {
+                Print(">> SKIPPED ", pat, " Signal at ", TimeToString(Time[i], TIME_MINUTES), ": ", reason);
+            } else {
+                // Determine if we should spam 'Inside Bar' logs? Maybe useful once to prove it.
+                // Print(">> SKIPPED (Weak) ", pat, " at ", TimeToString(Time[i]), ": ", reason);
+            }
+       }
+   }
 
    if(!newBar) return;
    lastBar = Time[0];
    
+   // Final filters before entry
    if(!nearLine) return;
    if(!inZone) return;
 
    if(isBullEngulf && zoneBull) {
        if(OrdersTotal() == 0) { 
            Print(">>> BUY ENTRY: Zone=", tfList, " Price=", Close[1], " PrevClose=", Close[2]);
-           double sl = Ask - StopLossPips * pipVal;
-           double tp = Ask + TakeProfitPips * pipVal;
-           OrderSend(Symbol(), OP_BUY, Lots, Ask, 3, sl, tp, "Zero Magic MTF Buy", MagicNumber, 0, clrBlue);
+           
+           // SL: Foot of Candle (Low of trigger) - 3 pips
+           double slPrice = Low[i] - 30 * Point; 
+           
+           // TP: Manual Rule "Sakunuki" (Quick Scalp)
+           // Target the NEXT Grid or Half-Grid line (whichever is closer > 3 pips)
+           // e.g. if Step=10.0, target 5.0 increments.
+           double tpStep = step / 2.0; 
+           double nextLine = (MathFloor(Ask / tpStep) + 1.0) * tpStep;
+           double tpPrice = nextLine;
+           
+           // Safety: If next line is very close (< 30 Point / 3 pips), skip to next
+           if(MathAbs(tpPrice - Ask) < 30*Point) tpPrice += tpStep;
+           
+           OrderSend(Symbol(), OP_BUY, Lots, Ask, 3, slPrice, tpPrice, "Zero Magic MTF Buy", MagicNumber, 0, clrBlue);
        }
    }
    if(isBearEngulf && !zoneBull) {
        if(OrdersTotal() == 0) {
            Print(">>> SELL ENTRY: Zone=", tfList, " Price=", Close[1], " PrevClose=", Close[2]);
-           double sl = Bid + StopLossPips * pipVal;
-           double tp = Bid - TakeProfitPips * pipVal;
-           OrderSend(Symbol(), OP_SELL, Lots, Bid, 3, sl, tp, "Zero Magic MTF Sell", MagicNumber, 0, clrRed);
+           
+           // SL: Head of Candle (High of trigger) + 3 pips
+           double slPrice = High[i] + 30 * Point; 
+           
+           // TP: "Sakunuki"
+           double tpStep = step / 2.0;
+           double nextLine = (MathCeil(Bid / tpStep) - 1.0) * tpStep;
+           double tpPrice = nextLine;
+           
+           // Safety
+           if(MathAbs(Bid - tpPrice) < 30*Point) tpPrice -= tpStep;
+           
+           OrderSend(Symbol(), OP_SELL, Lots, Bid, 3, slPrice, tpPrice, "Zero Magic MTF Sell", MagicNumber, 0, clrRed);
        }
    }
   }

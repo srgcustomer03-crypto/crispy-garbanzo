@@ -109,165 +109,125 @@ int OnCalculate(const int rates_total,
    OrderBlock obs[];
    ArrayResize(obs, 0);
 
-   // 1. Scan History for OB creation (Oldest to Newest)
-   // We scan from 'limit' down to 1. 
-   // But to track mitigation, we should scan forward? 
-   // Actually, simpler: Scan backward to find OBs, then check validity?
-   // Best: Scan Forward from (rates_total - limit) to 0.
+   // 2. MTF OB Detection Logic (User Request: Exclude M1, show M5+ with labels)
+   // Define TFs to scan
+   int tfs[] = {PERIOD_M5, PERIOD_M15, PERIOD_M30, PERIOD_H1, PERIOD_H4, PERIOD_D1};
    
-   int start = rates_total - limit;
-   if(start < 0) start = 0;
+   // We will execute this heavy scan only on new bar to save performance
+   static datetime lastScan;
+   bool fullScan = (time[0] != lastScan);
+   if(fullScan) lastScan = time[0];
    
-   for(int i = start; i < rates_total - 2; i++) {
-        // Bar i is current in this loop. We look at FVG formed partially by i.
-        // FVG pattern: Candle A(i), B(i+1), C(i+2).
-        // Wait, array index: 0 is newest. 
-        // So iterating i from Old (Big Index) to New (Small Index). 
-        // Let's stick to standard: i from limit down to 0.
+   // Always redraw active objects? No, redraw on full scan.
+   // To keep it simple for this fix: Just run the loop if fullScan.
+   // But we need to keep objects alive.
+   
+   if(fullScan) {
+       ObjectsDeleteAll(0, "ZM_OB_"); 
+       int obCount = 0;
+       
+       for(int t=0; t<ArraySize(tfs); t++) {
+           int tf = tfs[t];
+           
+           int bars = iBars(Symbol(), tf);
+           int limitScan = 200; 
+           if(limitScan > bars-5) limitScan = bars-5;
+           
+           OrderBlock tfOBs[];
+           
+           // Calculate OBs for this TF
+           for(int i = limitScan; i >= 2; i--) {
+               double hi = iHigh(Symbol(), tf, i);
+               double lo = iLow(Symbol(), tf, i);
+               double cl = iClose(Symbol(), tf, i);
+               
+               // Mitigation
+               for(int k=ArraySize(tfOBs)-1; k>=0; k--) {
+                   if(tfOBs[k].isBull) {
+                        if(cl < tfOBs[k].bottom) tfOBs[k].active = false;
+                   } else {
+                        if(cl > tfOBs[k].top) tfOBs[k].active = false;
+                   }
+               }
+               
+               // New OB Detection
+               double hi2 = iHigh(Symbol(), tf, i+2);
+               double lo2 = iLow(Symbol(), tf, i+2);
+               double op2 = iOpen(Symbol(), tf, i+2);
+               double cl2 = iClose(Symbol(), tf, i+2);
+               
+               if(lo > hi2) { // Bull FVG
+                   if(op2 > cl2) { // Bear Candle -> Bull OB
+                       addOB(tfOBs, hi2, lo2, true, iTime(Symbol(), tf, i+2));
+                   }
+               }
+               if(hi < lo2) { // Bear FVG
+                   if(cl2 > op2) { // Bull Candle -> Bear OB
+                       addOB(tfOBs, hi2, lo2, false, iTime(Symbol(), tf, i+2));
+                   }
+               }
+           }
+           
+           // Draw Active Ones
+           for(int k=0; k<ArraySize(tfOBs); k++) {
+               if(tfOBs[k].active) {
+                    string baseName = "ZM_OB_" + TFString(tf) + "_" + IntegerToString(obCount++);
+                    color col = tfOBs[k].isBull ? BullOBColor : BearOBColor;
+                    
+                    // 1. Zone Rectangle
+                    ObjectCreate(0, baseName, OBJ_RECTANGLE, 0, tfOBs[k].time, tfOBs[k].top, time[0], tfOBs[k].bottom);
+                    ObjectSetInteger(0, baseName, OBJPROP_COLOR, col);
+                    ObjectSetInteger(0, baseName, OBJPROP_FILL, true); 
+                    ObjectSetInteger(0, baseName, OBJPROP_BACK, true); 
+                    ObjectSetInteger(0, baseName, OBJPROP_WIDTH, 1); 
+                    ObjectSetInteger(0, baseName, OBJPROP_RAY_RIGHT, true); // FIX: Extend infinite right
+                    
+                    // 2. Text Label (Enhanced Visibility)
+                    string labelName = baseName + "_TXT";
+                    ObjectCreate(0, labelName, OBJ_TEXT, 0, time[0], tfOBs[k].top);
+                    ObjectSetString(0, labelName, OBJPROP_TEXT, TFString(tf) + " "); 
+                    ObjectSetInteger(0, labelName, OBJPROP_COLOR, clrWhite);
+                    ObjectSetInteger(0, labelName, OBJPROP_FONTSIZE, 9);
+                    ObjectSetInteger(0, labelName, OBJPROP_ANCHOR, ANCHOR_RIGHT_UPPER); // Place inside chart left of price line
+               }
+           }
+       }
    }
    
-   // Let's use standard reverse loop: i = limit down to 0.
-   // But we need to maintain a list of Active OBs and verify mitigation at each step.
-   // This is O(N*M). With MaxActiveOBs=10, it's fast.
+   // --- C. Signal Logic (Per timeframe or Current only?) ---
+   // Signals (Arrows) should probably remain on CURRENT timeframe logic for now (M1 entry trigger)
+   // But we need to check if current M1 price is inside ANY drawn MTF zone.
+   // Calculating that "Is Inside" logic here is complex without storing global list.
+   // For Indciator visual, let's keep Arrows relative to M1 lines for now as per V1.
    
-   OrderBlock activeList[];
-   ArrayResize(activeList, 0);
+   // [KEEPING ORIGINAL SIGNAL LOGIC BELOW for Arrows]
+   limit = HistoryBars; 
+   if(limit > rates_total - 20) limit = rates_total - 20;
    
    for(int i = limit; i >= 1; i--) {
-       // A. Check Mitigation of existing Active OBs by Current Candle i
-       int total = ArraySize(activeList);
-       for(int k = total - 1; k >= 0; k--) {
-           bool broken = false;
-           // If Bull OB, and Price drops below bottom? Or just touches?
-           // "Mitigation" means price touches the zone to pick up orders. 
-           // Usually, valid OB is one that HAS NOT been touched yet?
-           // Or one that IS touched and bounces?
-           // Strategy: "Fresh" OBs are best. Once touched/pierced substantially, remove.
-           // User manual implies: Zone is good until broken.
-           
-           if(activeList[k].isBull) {
-               // If price closes below bottom, invalidate
-               if(close[i] < activeList[k].bottom) activeList[k].active = false;
-               // If price touches it? It might be a bounce. Keep it until broken?
-               // Let's simplify: Invalidate if Close < Bottom.
-           } else {
-               // Bear OB
-               if(close[i] > activeList[k].top) activeList[k].active = false;
-           }
-           
-           if(!activeList[k].active) {
-               // Remove from list (inefficient array strict, but OK for small size)
-               // Just mark inactive, we filter later
-           }
-       }
-       
-       // B. Detect NEW OB at this bar?
-       // FVG Check: Candle i (Right), i+1 (Mid), i+2 (Left)
-       // Standard MQL4 indexing: i is *later* time than i+1.
-       // So gap is between i (Low/High) and i+2 (High/Low).
-       
-       // Bullish FVG: Low[i] > High[i+2]
-       if(low[i] > high[i+2]) {
-           // OB is i+2 (or i+3). We take i+2.
-           // It must be Bearish (Red) to be a Bullish OB (Sell to Buy).
-           if(open[i+2] > close[i+2]) {
-               OrderBlock newOB;
-               newOB.top = high[i+2];
-               newOB.bottom = low[i+2];
-               newOB.time = time[i+2];
-               newOB.isBull = true;
-               newOB.active = true;
-               newOB.name = "ZM_OB_" + IntegerToString(time[i+2]);
-               
-               // Add to list
-               int s = ArraySize(activeList);
-               ArrayResize(activeList, s + 1);
-               activeList[s] = newOB;
-               
-               // Limit total active
-               if(s + 1 > MaxActiveOBs) {
-                   // Remove oldest (Index 0)
-                   for(int m = 0; m < s; m++) activeList[m] = activeList[m+1];
-                   ArrayResize(activeList, s);
-               }
-           }
-       }
-       
-       // Bearish FVG: High[i] < Low[i+2]
-       if(high[i] < low[i+2]) {
-           // OB is i+2, Bullish (Buy to Sell)
-           if(close[i+2] > open[i+2]) {
-               OrderBlock newOB;
-               newOB.top = high[i+2];
-               newOB.bottom = low[i+2];
-               newOB.time = time[i+2];
-               newOB.isBull = false;
-               newOB.active = true;
-               newOB.name = "ZM_OB_" + IntegerToString(time[i+2]);
-               
-               int s = ArraySize(activeList);
-               ArrayResize(activeList, s + 1);
-               activeList[s] = newOB;
-               
-               if(s + 1 > MaxActiveOBs) {
-                   for(int m = 0; m < s; m++) activeList[m] = activeList[m+1];
-                   ArrayResize(activeList, s);
-               }
-           }
-       }
-       
-       // C. Signal Logic (Engulfing)
-       // Needs to be INSIDE an Active OB.
+       // ... existing signal logic ...
        double price = close[i];
-       
-       // Check if price is in ANY active OB
-       bool inZone = false;
-       for(int k=0; k<ArraySize(activeList); k++) {
-           if(activeList[k].active) {
-                // Check overlap
-                if(activeList[k].isBull) {
-                    if(low[i] <= activeList[k].top && high[i] >= activeList[k].bottom) inZone = true;
-                } else {
-                    if(high[i] >= activeList[k].bottom && low[i] <= activeList[k].top) inZone = true;
-                }
-           }
-       }
-       
-       // Grid Line Logic
        double nearest = MathRound(price / step) * step;
        double diff = MathAbs(price - nearest);
-       double distancePips = diff / Point;
-       if(Digits == 3 || Digits == 5) distancePips /= 10; 
-       bool isNearLine = (distancePips <= DetectionRangePips);
        
-       if(isNearLine) { // Removed 'inZone' requirement for Signals to keep it responsive?
-           // Or strictly require both? 
-           // User Request: "OB + FVG" is trace. "Line" is Price.
-           // Let's require BOTH for a "Perfect" signal, or just Line for now?
-           // V2 Goal: Show OB. Let's keep signals based on Lines for now (v1 logic) to avoid "No Signals" issue.
-           // But we DRAW the OBs so user can filter.
-           
+       double pVal = Point; 
+       if(Digits==3||Digits==5) pVal*=10;
+       if(Digits==2 && (StringFind(Symbol(),"XAU")>=0)) pVal*=10;
+       
+       if((diff/pVal) <= DetectionRangePips) {
            // Bullish Engulfing
            bool prevBear = close[i+1] < open[i+1];
            bool currBull = close[i] > open[i];
            if(prevBear && currBull && close[i] >= open[i+1] && open[i] <= close[i+1]) {
                BullBuffer[i] = low[i] - 10 * Point;
-               if(i == 0 && UseAlerts && Time[0] != Time[1]) {}
+               if(i == 0 && UseAlerts && time[0] != time[1]) {}
            }
-           
            // Bearish Engulfing
            bool prevBull = close[i+1] > open[i+1];
            bool currBear = close[i] < open[i];
            if(prevBull && currBear && close[i] <= open[i+1] && open[i] >= close[i+1]) {
                BearBuffer[i] = high[i] + 10 * Point;
            }
-       }
-   }
-   
-   // Draw Active OBs from the final list
-   for(int k=0; k<ArraySize(activeList); k++) {
-       if(activeList[k].active) {
-           DrawOB(activeList[k]);
        }
    }
      
@@ -277,21 +237,31 @@ int OnCalculate(const int rates_total,
   }
 
 //+------------------------------------------------------------------+
-//| Draw OB Function                                                 |
+//| addOB Helper (MTF)                                               |
 //+------------------------------------------------------------------+
-void DrawOB(OrderBlock &ob) {
-    if(ObjectFind(0, ob.name) < 0) {
-        ObjectCreate(0, ob.name, OBJ_RECTANGLE, 0, ob.time, ob.top, Time[0] + PeriodSeconds()*5, ob.bottom);
-        ObjectSetInteger(0, ob.name, OBJPROP_COLOR, ob.isBull ? BullOBColor : BearOBColor);
-        ObjectSetInteger(0, ob.name, OBJPROP_FILL, true); 
-        ObjectSetInteger(0, ob.name, OBJPROP_BACK, true); 
-        ObjectSetInteger(0, ob.name, OBJPROP_RAY_RIGHT, true); // Keep Ray for active ones
-        ObjectSetInteger(0, ob.name, OBJPROP_WIDTH, 1);
-    } else {
-        // Update Time[0]
-        // ObjectSetInteger(0, ob.name, OBJPROP_TIME2, Time[0] + PeriodSeconds()*5);
-    }
+void addOB(OrderBlock &arr[], double top, double bottom, bool bull, datetime time) {
+    OrderBlock newOB;
+    newOB.top = top;
+    newOB.bottom = bottom;
+    newOB.time = time; 
+    newOB.isBull = bull;
+    newOB.active = true;
+    int s = ArraySize(arr);
+    ArrayResize(arr, s+1);
+    arr[s] = newOB;
 }
+
+string TFString(int tf) {
+    if(tf==PERIOD_M1) return "M1";
+    if(tf==PERIOD_M5) return "M5";
+    if(tf==PERIOD_M15) return "M15";
+    if(tf==PERIOD_M30) return "M30";
+    if(tf==PERIOD_H1) return "H1";
+    if(tf==PERIOD_H4) return "H4";
+    if(tf==PERIOD_D1) return "D1";
+    return "";
+}
+
 
 //+------------------------------------------------------------------+
 //| Draw Grid Lines Function                                         |
