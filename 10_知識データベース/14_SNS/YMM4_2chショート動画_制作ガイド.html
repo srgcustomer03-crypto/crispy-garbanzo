@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YMM4で2chショート動画を作る方法</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+            margin-top: 40px;
+            background-color: #eaf2f8;
+            padding: 10px;
+        }
+        h3 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #fff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: Consolas, Monaco, "Andale Mono", monospace;
+        }
+        pre {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        pre code {
+            background-color: transparent;
+            color: inherit;
+            padding: 0;
+        }
+        .note {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        ul, ol {
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>YMM4で2chショート動画を作る方法</h1>
+    <p>台本「script_01_low_income_revenge.md」を例に、実際の制作手順を解説します。</p>
+
+    <h2>事前準備</h2>
+
+    <h3>1. 必要なソフト</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>ソフト</th>
+                <th>用途</th>
+                <th>入手先</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>YMM4</td>
+                <td>動画編集</td>
+                <td><a href="https://manjubox.net/ymm4/" target="_blank">https://manjubox.net/ymm4/</a></td>
+            </tr>
+            <tr>
+                <td>VOICEVOX</td>
+                <td>音声合成</td>
+                <td><a href="https://voicevox.hiroshiba.jp/" target="_blank">https://voicevox.hiroshiba.jp/</a></td>
+            </tr>
+            <tr>
+                <td>立ち絵素材</td>
+                <td>キャラ表示</td>
+                <td>ニコニコ静画等</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>2. 素材フォルダ構成（推奨）</h3>
+    <pre><code>動画プロジェクト/
+├── 01_画像/
+│   ├── 背景/
+│   ├── キャラ/
+│   └── UI部品/（2chレス枠など）
+├── 02_音声/
+│   ├── BGM/
+│   └── SE/
+├── 03_立ち絵/
+└── project.ymmp</code></pre>
+
+    <h2>Step 1：プロジェクト設定</h2>
+
+    <h3>新規プロジェクト作成</h3>
+    <ol>
+        <li>YMM4起動 → <code>ファイル</code> → <code>新規プロジェクト</code></li>
+        <li>設定：
+            <ul>
+                <li><strong>解像度</strong>: 1080 x 1920（縦型ショート用）</li>
+                <li><strong>フレームレート</strong>: 30fps</li>
+                <li><strong>長さ</strong>: 65秒（余裕を持たせる）</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>Step 2：キャラクター設定</h2>
+
+    <h3>使用キャラ例</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>役割</th>
+                <th>キャラ</th>
+                <th>声</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ナレーション</td>
+                <td>ずんだもん</td>
+                <td>VOICEVOX</td>
+            </tr>
+            <tr>
+                <td>俺（主人公）</td>
+                <td>四国めたん</td>
+                <td>VOICEVOX</td>
+            </tr>
+            <tr>
+                <td>元カノ</td>
+                <td>春日部つむぎ</td>
+                <td>VOICEVOX</td>
+            </tr>
+            <tr>
+                <td>スレ民A〜G</td>
+                <td>青山龍星/冥鳴ひまり等</td>
+                <td>VOICEVOX</td>
+            </tr>
+            <tr>
+                <td>妻</td>
+                <td>小夜/SAYO</td>
+                <td>VOICEVOX</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>キャラ登録手順</h3>
+    <ol>
+        <li><code>キャラクター設定</code> → <code>新規作成</code></li>
+        <li>名前：「俺」「元カノ」「ナレ」など</li>
+        <li>ボイス：VOICEVOXの該当キャラを選択</li>
+        <li>立ち絵：表情差分を登録（通常/怒り/泣き/驚き等）</li>
+    </ol>
+
+    <h2>Step 3：台本をYMM4に入力</h2>
+
+    <h3>セリフ入力の流れ</h3>
+    <p>台本の時間に合わせてセリフを配置：</p>
+    <pre><code>【0:01】元カノ「ねえ…やり直さない？」
+【0:03】俺「…誰？」
+【0:04】ナレ「低収入で捨てられた男の"逆転劇"がヤバすぎたwww」</code></pre>
+
+    <h3>入力手順</h3>
+    <ol>
+        <li>タイムライン上で右クリック → <code>アイテムを追加</code> → <code>ボイスアイテム</code></li>
+        <li>キャラを選択（例：元カノ）</li>
+        <li>セリフを入力：「ねえ…やり直さない？」</li>
+        <li><code>Enter</code>で音声生成</li>
+        <li>タイムライン上で開始位置を調整（0:01に配置）</li>
+    </ol>
+
+    <div class="note">
+        <strong>効率化Tips</strong><br>
+        <ul>
+            <li><strong>連続入力</strong>: セリフ入力後 <code>Ctrl+Enter</code> で次のセリフへ</li>
+            <li><strong>一括配置</strong>: 全セリフを先に入力 → 後から位置調整</li>
+        </ul>
+    </div>
+
+    <h2>Step 4：画像・背景を配置</h2>
+
+    <h3>画像アイテムの追加</h3>
+    <ol>
+        <li><code>アイテムを追加</code> → <code>画像アイテム</code></li>
+        <li><code>script_01_assets.csv</code>の画像を選択</li>
+        <li>表示時間をセリフに合わせる</li>
+    </ol>
+
+    <h3>時間別の画像配置（台本より）</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>時間</th>
+                <th>配置する画像</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0:01-0:03</td>
+                <td>元カノ泣き顔（紫背景）</td>
+            </tr>
+            <tr>
+                <td>0:03-0:05</td>
+                <td>俺の余裕顔（青背景）</td>
+            </tr>
+            <tr>
+                <td>0:06-0:08</td>
+                <td>給与明細を見る男</td>
+            </tr>
+            <tr>
+                <td>0:08-0:12</td>
+                <td>女の冷たい表情</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td>...</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>画像の動き（重要！）</h3>
+    <p>静止画をそのまま見せない → <strong>常に動きをつける</strong></p>
+    <ol>
+        <li>画像を選択 → <code>エフェクト</code> → <code>登場</code></li>
+        <li>おすすめエフェクト：
+            <ul>
+                <li><strong>ズームイン</strong>: 1.0 → 1.1（2秒かけて）</li>
+                <li><strong>左右に揺れる</strong>: 振幅5px</li>
+                <li><strong>フェードイン</strong>: 0.3秒</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>Step 5：字幕・テロップ設定</h2>
+
+    <h3>基本字幕（セリフ表示）</h3>
+    <ol>
+        <li><code>表示設定</code> → <code>字幕</code> → ON</li>
+        <li>フォント設定：
+            <ul>
+                <li><strong>通常セリフ</strong>: Noto Sans JP Bold / 48pt</li>
+                <li><strong>感情セリフ</strong>: ラグランパンチ / 72pt（赤+黒縁）</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>強調テロップの追加</h3>
+    <p>重要なセリフは別途テロップで強調：</p>
+    <ol>
+        <li><code>アイテムを追加</code> → <code>テキストアイテム</code></li>
+        <li>例：「年収1000万」「借金300万」</li>
+        <li>設定：
+            <ul>
+                <li>フォント: 極太ゴシック</li>
+                <li>サイズ: 100pt以上</li>
+                <li>色: 赤 + 黒縁取り（5px）</li>
+                <li>エフェクト: <code>登場</code> → <code>ドン！</code>（拡大して登場）</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>2chレス風テロップ</h3>
+    <p>スレ民のコメントは専用スタイルで：</p>
+    <pre><code>┌────────────────────┐
+│ 12: 名無しさん      │
+│ 胸糞悪すぎて草      │
+└────────────────────┘</code></pre>
+    <ol>
+        <li>背景付きテキストボックスを作成</li>
+        <li>または画像素材として用意しておく</li>
+    </ol>
+
+    <h2>Step 6：BGM・SE配置</h2>
+
+    <h3>BGM配置（感情曲線に合わせる）</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>時間</th>
+                <th>BGMの雰囲気</th>
+                <th>配置</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0:00-0:05</td>
+                <td>衝撃音→無音</td>
+                <td>SE「ドンッ」のみ</td>
+            </tr>
+            <tr>
+                <td>0:05-0:30</td>
+                <td>どんよりピアノ</td>
+                <td>悲しいBGM</td>
+            </tr>
+            <tr>
+                <td>0:30-0:50</td>
+                <td>テンポアップ</td>
+                <td>明るいBGMに切替</td>
+            </tr>
+            <tr>
+                <td>0:50-1:00</td>
+                <td>勝利・爽快系</td>
+                <td>アップテンポBGM</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>SE配置</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>時間</th>
+                <th>SE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0:00</td>
+                <td>ドンッ（衝撃音）</td>
+            </tr>
+            <tr>
+                <td>0:20</td>
+                <td>ドアが閉まる音</td>
+            </tr>
+            <tr>
+                <td>0:29</td>
+                <td>時計の針が回る音</td>
+            </tr>
+            <tr>
+                <td>0:39</td>
+                <td>LINE通知音（ピロン）</td>
+            </tr>
+            <tr>
+                <td>0:58</td>
+                <td>靴音（カツカツ）</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>BGM・SE入手先</h3>
+    <ul>
+        <li>DOVA-SYNDROME（フリーBGM）</li>
+        <li>効果音ラボ（フリーSE）</li>
+        <li>甘茶の音楽工房</li>
+    </ul>
+
+    <h2>Step 7：仕上げ・書き出し</h2>
+
+    <h3>最終チェック項目</h3>
+    <ul>
+        <li>[ ] セリフと画像のタイミングは合っているか</li>
+        <li>[ ] 無音部分がないか（ジャンプカット確認）</li>
+        <li>[ ] 字幕が読みやすいか</li>
+        <li>[ ] BGMの音量バランス（セリフの邪魔にならないか）</li>
+        <li>[ ] 60秒以内に収まっているか</li>
+    </ul>
+
+    <h3>書き出し設定</h3>
+    <ol>
+        <li><code>ファイル</code> → <code>動画出力</code></li>
+        <li>設定：
+            <ul>
+                <li><strong>形式</strong>: MP4（H.264）</li>
+                <li><strong>解像度</strong>: 1080 x 1920</li>
+                <li><strong>ビットレート</strong>: 8000kbps以上</li>
+                <li><strong>音声</strong>: AAC 192kbps</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>時短テクニック</h2>
+    
+    <h3>1. テンプレート化</h3>
+    <p>よく使う設定をテンプレートとして保存：</p>
+    <ul>
+        <li>キャラ設定</li>
+        <li>字幕スタイル</li>
+        <li>2chレス枠</li>
+        <li>BGMフェード設定</li>
+    </ul>
+
+    <h3>2. セリフ一括入力</h3>
+    <p>台本をテキストファイルで用意 → YMM4にドラッグ&ドロップで一括読み込み</p>
+
+    <h3>3. 立ち絵表情の自動切替</h3>
+    <p>感情タグを設定しておくと、セリフに応じて自動で表情が変わる</p>
+
+    <h2>トラブルシューティング</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>問題</th>
+                <th>解決策</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>音声が生成されない</td>
+                <td>VOICEVOXが起動しているか確認</td>
+            </tr>
+            <tr>
+                <td>動画が重い</td>
+                <td>プレビュー画質を下げる</td>
+            </tr>
+            <tr>
+                <td>書き出しが遅い</td>
+                <td>GPUエンコードを有効化</td>
+            </tr>
+            <tr>
+                <td>縦動画にならない</td>
+                <td>プロジェクト設定で1080x1920を確認</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>制作時間の目安</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>工程</th>
+                <th>時間</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>素材収集</td>
+                <td>30分〜1時間</td>
+            </tr>
+            <tr>
+                <td>セリフ入力</td>
+                <td>20分</td>
+            </tr>
+            <tr>
+                <td>画像配置</td>
+                <td>30分</td>
+            </tr>
+            <tr>
+                <td>BGM・SE配置</td>
+                <td>15分</td>
+            </tr>
+            <tr>
+                <td>調整・仕上げ</td>
+                <td>30分</td>
+            </tr>
+            <tr>
+                <td><strong>合計</strong></td>
+                <td><strong>約2〜3時間</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <p>慣れれば1本1時間程度で制作可能。</p>
+
+    <hr>
+    <p style="text-align: right; color: #777;">
+        <strong>作成日</strong>: 2026-02-03<br>
+        <strong>対応台本</strong>: 21_詳細台本/script_01_low_income_revenge.md
+    </p>
+
+</div>
+
+</body>
+</html>

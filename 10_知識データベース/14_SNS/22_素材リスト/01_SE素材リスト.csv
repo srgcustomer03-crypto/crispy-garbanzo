@@ -1,0 +1,13 @@
+シーン,時間,SE名,用途,ダウンロードURL,備考
+導入,0:00,ドンッ（衝撃音）,タイトル登場インパクト,https://soundeffect-lab.info/sound/anime/mp3/shock1.mp3,shock1〜5から好みで選択
+導入,0:00,文字表示の衝撃音,タイトルテロップ用,https://soundeffect-lab.info/sound/anime/mp3/text-impact1.mp3,text-impact1〜3から選択
+展開①,0:20,ドアが閉まる音,元カノが去る,https://soundeffect-lab.info/sound/various/mp3/door-close1.mp3,door-close1〜3から選択
+展開②,0:29,制限時間タイマー,時間経過演出,https://soundeffect-lab.info/sound/anime/mp3/quiz-timer1.mp3,時計の針が回る演出
+展開②,0:29,制限時間タイマー（倍速）,時間経過演出（加速版）,https://soundeffect-lab.info/sound/anime/mp3/quiz-timer-x2-1.mp3,残り時間わずか感
+転換,0:39,LINE通知音,メッセージ着信,https://soundeffect-lab.info/sound/button/mp3/decision49.mp3,ピロン（ゲーム風）
+転換,0:39,メッセージ表示音,メッセージ着信（代替）,https://soundeffect-lab.info/sound/button/mp3/message-display1.mp3,message-display1〜3から選択
+オチ,0:58,革靴の足音（歩く）,夫婦が去る,https://soundeffect-lab.info/sound/various/mp3/walk-leather-shoes1.mp3,カツカツ音
+オチ,0:58,革靴の足音（走る）,夫婦が去る（代替）,https://soundeffect-lab.info/sound/various/mp3/dash-leather-shoes1.mp3,速めのテンポ
+追加,--,ショック2,絶望シーン用,https://soundeffect-lab.info/sound/anime/mp3/shock2.mp3,元カノ顔面蒼白時など
+追加,--,ショック3,絶望シーン用,https://soundeffect-lab.info/sound/anime/mp3/shock3.mp3,バリエーション
+追加,--,金属タイトル表示,成功シーン用,https://soundeffect-lab.info/sound/anime/mp3/metal-logo1.mp3,年収1000万テロップ時
