@@ -94,8 +94,7 @@
               "title": "ブックマーク"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -226,7 +225,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b956b60b687ae6bd",
+  "active": "17e7bdb20d4ece07",
   "lastOpenFiles": [
     "Clippings/Thread by @セナエナ09 75.md",
     "00_受信箱/Thread by @セナエナ09.md",
